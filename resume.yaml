@@ -55,7 +55,7 @@ work:
     description: 
         A Labroatory inside the University of Hong Kong developing 
         a set of helpful e-Learning solutions.
-    highlights: 
+    highlights:
       - Development of the iClass Parental Control System mobile app, which provides
         parents an interface to control their own kids' devices, in React Native.
       - Further development and maintance of the iClass Mobile Management and 
@@ -82,6 +82,13 @@ skills:
     keywords:
       - Golang
       - Go
+  - name: Linux system
+    level: Advanced
+    keywords:
+      - Linux
+      - Bash
+      - Vim
+      - Tmux
   - name: Node.js
     level: Working knowledge
     keywords:
@@ -109,6 +116,10 @@ skills:
     level: Working knowledge
     keywords:
       - Redis
+  - name: RabbitMQ
+    level: Working knowledge
+    keywords:
+       - RabbitMQ
 languages:
   - language: English
     fluency: Bilingual
@@ -121,10 +132,10 @@ languages:
   - language: Mandarin / Simplified Chinese
     fluency: Limited Working
 interests:
-  - name: Wildlife
-    keywords:
-      - Ferrets
-      - Unicorns
+  - name: Mobile / Computer games
+  - name: Watching movies
+  - name: Fuchsia OS
+  - name: Raspberry PI / Arduino
 projects:
   - name: Miss Direction
     description: A mapping engine that misguides you
