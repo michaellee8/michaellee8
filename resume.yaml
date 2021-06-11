@@ -1,0 +1,142 @@
+$schema: https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+
+basics:
+  name: Michael Lee
+  label: Software Engineer
+  mail: ckmichael8@gmail.com
+  url: https://michaellee8.com
+  summary:
+    Previously worked as a Remote Software Engineer dealing with Go backend
+    in highly concurrent game system. Previously worked in React as well,
+    contributed to Flutter. Pretty heavy linux/tmux/nvim/gcp user in personel. 
+    Please see my GitHub profile for open-source and personal projects I have 
+    worked on.
+  location:
+    countryCode: HK
+  profiles:
+    - network: GitHub
+      username: michaellee8
+      url: https://github.com/michaellee8
+    - network: GitLab
+      username: michaellee8
+      url: https://gitlab.com/michaellee8
+    - network: Linkedin
+      username: michaellee88
+      url: https://linkedin.com/in/michaellee88
+work:
+  - company: TFS Info-Tech Company Limited
+    location: Hong Kong
+    description: A company building a highly concurrent game
+    position: Junior Software Analyst
+    url: https://tfs-grp.com/
+    startDate: "2019-08-05"
+    endDate: "2021-05-31"
+    summary: 
+      In TFS, we were building a highly concurrent game system that
+      is expected to stream live video feed and then accept input to a
+      large amount of players. I am responsible for developing the
+      Golang-based microservices system.
+    highlights:
+      - Contributed to the initial proposal of the high concurrency
+        microservices architecture, using RabbitMQ as a message broker to
+        serve large amount of concurrent external connections, and gRPC for
+        internal low latency communication, with MySQL as database and Redis
+        as cache and secondary low latency database, mainly implemented with
+        Golang with additional Javascript libraries provided for frontend
+        consumption. Previous load testing indicates a concurrent peak
+        loading of at least 10K users when backed with message brokers and
+        databases with sufficient capacity.
+      - Implementing of a low latency and highly efficient custom authentication
+        system for the RabbitMQ broker, backed by Redis.
+      - Providing a rigidly tested, well structured system with reusable
+        modules to draw different graphs based on the current state of the system.
+      - Implementing additional features and bugfixes on a MySQL-backed content
+        management system, across different services.
+  - company: HKU e-Learning Development Labroatory
+    location: Hong Kong
+    startDate: "2018-05"
+    endDate: "2019-06"
+    position: Part-time developer
+    description: A Labroatory inside the University of Hong Kong developing
+      a set of helpful e-Learning solutions.
+    highlights:
+      - Development of the iClass Parental Control System mobile app, which provides
+        parents an interface to control their own kids' devices, in React Native.
+      - Further development and maintance of the iClass Mobile Management and
+        Learning Management System service, utilizing Node.js, PHP and MySQL.
+      - Development and deployment of the iClass Student Information System,
+        utilizing PHP, MySQL and Docker.
+education:
+  - institution: University of Hong Kong
+    url: https://hku.hk/
+    area: Computer Engineering
+    studyType: Bachelor
+    startDate: "2018-09-01"
+awards:
+  - title: Sliver Medal in Hong Kong Olympaid in Informatics
+    date: "2016"
+    url: https://hkoi.org/en
+    awarder: The Hong Kong Association of Computer Eduation
+    summary: A programming competition focused in algorithm building, achieved
+      during my secondary school days.
+skills:
+  - name: Golang
+    level: Advanced
+    keywords:
+      - Golang
+      - Go
+  - name: Linux system
+    level: Advanced
+    keywords:
+      - Linux
+      - Bash
+      - Vim
+      - Tmux
+  - name: Node.js
+    level: Working knowledge
+    keywords:
+      - Node.js
+      - Javascript
+  - name: React.js / React Native
+    level: Working Knowledge
+    keywords:
+      - React.js
+      - React
+      - React Native
+  - name: Flutter
+    level: Working knowledge
+    keywords:
+      - Flutter
+    description:
+      Have experience developing multiple Flutter apps, as well as contrbuting
+      to the Flutter tooling upstream.
+  - name: SQL
+    level: Working knowledge
+    keywords:
+      - MySQL
+      - PostgreSQL
+  - name: Redis
+    level: Working knowledge
+    keywords:
+      - Redis
+  - name: RabbitMQ
+    level: Working knowledge
+    keywords:
+      - RabbitMQ
+languages:
+  - language: English
+    fluency: Bilingual
+    description: Achieved 5* in Reading, 5 in Writing and Listening and 4 in
+      Speacking in 2018 HKDSE, with a summary grade of 4. Currently studying
+      for IELTS test.
+  - language: Cantonese / Traditional Chinese
+    fluency: Native
+  - language: Mandarin / Simplified Chinese
+    fluency: Limited Working
+interests:
+  - name: Mobile / Computer games
+  - name: Watching movies
+  - name: Fuchsia OS
+  - name: Raspberry PI / Arduino
+
