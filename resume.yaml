@@ -6,7 +6,10 @@ basics:
   label: Software Engineer
   mail: ckmichael8@gmail.com
   url: https://michaellee8.com
-  summary: Previously worked as a Remote Software Engineer dealing with Go backend  in highly concurrent game system. Previously worked in React as well,  contributed to Flutter. Pretty heavy linux/tmux/nvim/gcp user in personel.
+  summary:
+    Previously worked as a Remote Software Engineer dealing with Go backend
+    in highly concurrent game system. Previously worked in React as well,
+    contributed to Flutter. Pretty heavy linux/tmux/nvim/gcp user in personel.
   location:
     countryCode: HK
   profiles:
@@ -20,7 +23,7 @@ basics:
       username: michaellee88
       url: https://linkedin.com/in/michaellee88
 work:
-  - name: TFS Info-Tech Company Limited
+  - company: TFS Info-Tech Company Limited
     location: Hong Kong
     description: A company building a highly concurrent game
     position: Junior Software Analyst
@@ -28,39 +31,39 @@ work:
     startDate: "2019-08-05"
     endDate: "2021-05-31"
     summary: 
-        In TFS, we were building a highly concurrent game system that 
-        is expected to stream live video feed and then accept input to a 
-        large amount of players. I am responsible for developing the 
-        Golang-based microservices system.
+      In TFS, we were building a highly concurrent game system that
+      is expected to stream live video feed and then accept input to a
+      large amount of players. I am responsible for developing the
+      Golang-based microservices system.
     highlights:
-      - Contributed to the initial proposal of the high concurrency 
-        microservices architecture, using RabbitMQ as a message broker to 
-        serve large amount of concurrent external connections, and gRPC for 
-        internal low latency communication, with MySQL as database and Redis 
-        as cache and secondary low latency database, mainly implemented with 
-        Golang with additional Javascript libraries provided for frontend 
-        consumption. Previous load testing indicates a concurrent peak 
-        loading of at least 10K users when backed with message brokers and 
+      - Contributed to the initial proposal of the high concurrency
+        microservices architecture, using RabbitMQ as a message broker to
+        serve large amount of concurrent external connections, and gRPC for
+        internal low latency communication, with MySQL as database and Redis
+        as cache and secondary low latency database, mainly implemented with
+        Golang with additional Javascript libraries provided for frontend
+        consumption. Previous load testing indicates a concurrent peak
+        loading of at least 10K users when backed with message brokers and
         databases with sufficient capacity.
-      - Implementing of a low latency and highly efficient custom authentication 
+      - Implementing of a low latency and highly efficient custom authentication
         system for the RabbitMQ broker, backed by Redis.
-      - Providing a rigidly tested, well structured system with reusable 
+      - Providing a rigidly tested, well structured system with reusable
         modules to draw different graphs based on the current state of the system.
-      - Implementing additional features and bugfixes on a MySQL-backed content 
+      - Implementing additional features and bugfixes on a MySQL-backed content
         management system, across different services.
-  - name: HKU e-Learning Development Labroatory
+  - company: HKU e-Learning Development Labroatory
     location: Hong Kong
     startDate: "2018-05"
     endDate: "2019-06"
-    description: 
-        A Labroatory inside the University of Hong Kong developing 
-        a set of helpful e-Learning solutions.
+    position: Part-time developer
+    description: A Labroatory inside the University of Hong Kong developing
+      a set of helpful e-Learning solutions.
     highlights:
       - Development of the iClass Parental Control System mobile app, which provides
         parents an interface to control their own kids' devices, in React Native.
-      - Further development and maintance of the iClass Mobile Management and 
+      - Further development and maintance of the iClass Mobile Management and
         Learning Management System service, utilizing Node.js, PHP and MySQL.
-      - Development and deployment of the iClass Student Information System, 
+      - Development and deployment of the iClass Student Information System,
         utilizing PHP, MySQL and Docker.
 education:
   - institution: University of Hong Kong
@@ -73,9 +76,8 @@ awards:
     date: "2016"
     url: https://hkoi.org/en
     awarder: The Hong Kong Association of Computer Eduation
-    summary: 
-        A programming competition focused in algorithm building, achieved 
-        during my secondary school days.
+    summary: A programming competition focused in algorithm building, achieved
+      during my secondary school days.
 skills:
   - name: Golang
     level: Advanced
@@ -105,11 +107,11 @@ skills:
     keywords:
       - Flutter
     description:
-        Have experience developing multiple Flutter apps, as well as contrbuting 
-        to the Flutter tooling upstream.
+      Have experience developing multiple Flutter apps, as well as contrbuting
+      to the Flutter tooling upstream.
   - name: SQL
     level: Working knowledge
-    keywords: 
+    keywords:
       - MySQL
       - PostgreSQL
   - name: Redis
@@ -119,14 +121,13 @@ skills:
   - name: RabbitMQ
     level: Working knowledge
     keywords:
-       - RabbitMQ
+      - RabbitMQ
 languages:
   - language: English
     fluency: Bilingual
-    description: 
-        Achieved 5* in Reading, 5 in Writing and Listening and 4 in 
-        Speacking in 2018 HKDSE, with a summary grade of 4. Currently studying 
-        for IELTS test.
+    description: Achieved 5* in Reading, 5 in Writing and Listening and 4 in
+      Speacking in 2018 HKDSE, with a summary grade of 4. Currently studying
+      for IELTS test.
   - language: Cantonese / Traditional Chinese
     fluency: Native
   - language: Mandarin / Simplified Chinese
@@ -136,22 +137,4 @@ interests:
   - name: Watching movies
   - name: Fuchsia OS
   - name: Raspberry PI / Arduino
-projects:
-  - name: Miss Direction
-    description: A mapping engine that misguides you
-    highlights:
-      - Won award at AIHacks 2016
-      - Built by all women team of newbie programmers
-      - Using modern technologies such as GoogleMaps, Chrome Extension and Javascript
-    keywords:
-      - GoogleMaps
-      - Chrome Extension
-      - Javascript
-    startDate: "2016-08-24"
-    endDate: "2016-08-24"
-    url: missdirection.example.com
-    roles:
-      - Team lead
-      - Designer
-    entity: Smoogle
-    type: application
+
