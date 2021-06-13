@@ -16,6 +16,7 @@ Please have a look at my resume at https://resume.michaellee8.com/ on my work ex
 ### Some of my open-source contributions/participations:
 
 - [Flutter][12]: Previously contributed to Flutter's [tooling][14] [on][15] Fuchsia. Currently participating in the [discussion][13] and doing some small experiments on enabling Hot Reload under Flutter Web. 
+- [vifm][16]: Contributed to an AppImage generation [script][17]. 
 
 
 
@@ -49,3 +50,5 @@ Here are some ideas to get you started:
 [13]: https://github.com/flutter/flutter/issues/53041/
 [14]: https://github.com/flutter/flutter/pull/55715/
 [15]: https://github.com/flutter/flutter/pull/55664/
+[16]: https://github.com/vifm/vifm/
+[17]: https://github.com/vifm/vifm/pull/615/
