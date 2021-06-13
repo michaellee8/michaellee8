@@ -8,8 +8,8 @@ basics:
   url: https://michaellee8.com
   summary:
     Previously worked as a Remote Software Engineer dealing with Go backend
-    in highly concurrent game system. Previously worked in React as well,
-    contributed to Flutter. Pretty heavy linux/tmux/nvim/gcp user in personel. 
+    in a highly concurrent game system. Previously worked in React as well,
+    contributed to Flutter. Pretty heavy linux/tmux/nvim/gcp user in person. 
     Please see my GitHub profile for open-source and personal projects I have 
     worked on.
   location:
@@ -40,7 +40,7 @@ work:
     highlights:
       - Contributed to the initial proposal of the high concurrency
         microservices architecture, using RabbitMQ as a message broker to
-        serve large amount of concurrent external connections, and gRPC for
+        serve a large amount of concurrent external connections, and gRPC for
         internal low latency communication, with MySQL as database and Redis
         as cache and secondary low latency database, mainly implemented with
         Golang with additional Javascript libraries provided for frontend
@@ -49,21 +49,21 @@ work:
         databases with sufficient capacity.
       - Implementing of a low latency and highly efficient custom authentication
         system for the RabbitMQ broker, backed by Redis.
-      - Providing a rigidly tested, well structured system with reusable
+      - Providing a rigidly tested, well-structured system with reusable
         modules to draw different graphs based on the current state of the system.
       - Implementing additional features and bugfixes on a MySQL-backed content
         management system, across different services.
-  - company: HKU e-Learning Development Labroatory
+  - company: HKU e-Learning Development Laboratory
     location: Hong Kong
     startDate: "2018-05"
     endDate: "2019-06"
     position: Part-time developer
-    description: A Labroatory inside the University of Hong Kong developing
+    description: A Laboratory inside the University of Hong Kong developing
       a set of helpful e-Learning solutions.
     highlights:
       - Development of the iClass Parental Control System mobile app, which provides
         parents an interface to control their own kids' devices, in React Native.
-      - Further development and maintance of the iClass Mobile Management and
+      - Further development and maintenance of the iClass Mobile Management and
         Learning Management System service, utilizing Node.js, PHP and MySQL.
       - Development and deployment of the iClass Student Information System,
         utilizing PHP, MySQL and Docker.
@@ -74,11 +74,11 @@ education:
     studyType: Bachelor
     startDate: "2018-09"
 awards:
-  - title: Sliver Medal in Hong Kong Olympaid in Informatics
+  - title: Sliver Medal in Hong Kong Olympiad in Informatics
     date: "2016"
     url: https://hkoi.org/en
-    awarder: The Hong Kong Association of Computer Eduation
-    summary: A programming competition focused in algorithm building, achieved
+    awarder: The Hong Kong Association of Computer Education
+    summary: A programming competition focused on algorithm building, achieved
       during my secondary school days.
 skills:
   - name: Golang
@@ -109,7 +109,7 @@ skills:
     keywords:
       - Flutter
     description:
-      Have experience developing multiple Flutter apps, as well as contrbuting
+      Have experience developing multiple Flutter apps, as well as contributing
       to the Flutter tooling upstream.
   - name: SQL
     level: Working knowledge
@@ -128,7 +128,7 @@ languages:
   - language: English
     fluency: Bilingual
     description: Achieved 5* in Reading, 5 in Writing and Listening and 4 in
-      Speacking in 2018 HKDSE, with a summary grade of 4. Currently studying
+      Speaking in 2018 HKDSE, with a summary grade of 4. Currently studying
       for IELTS test.
   - language: Cantonese / Traditional Chinese
     fluency: Native
