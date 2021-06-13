@@ -25,8 +25,8 @@ work:
     description: A company building a highly concurrent game
     position: Junior Software Analyst
     url: https://tfs-grp.com/
-    startDate: "2019-08-05"
-    endDate: "2021-05-31"
+    startDate: "2019-08"
+    endDate: "2021-06"
     summary: 
         In TFS, we were building a highly concurrent game system that 
         is expected to stream live video feed and then accept input to a 
