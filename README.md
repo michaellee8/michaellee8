@@ -36,6 +36,8 @@ Please have a look at my resume at https://resume.michaellee8.com/ on my work ex
 
 - I started programming about 10 years ago when I borrowed a very outdated Visual Basic 6.0 book from a local library. My first project was a "Michael Explorer" that embeds IE 7 with a few buttons for navigation. I actually got my first job at a learning product company that provides my Secondary school's e-Learning platform by discovering multiple security flaws in the platform (and fixed all of them after joining the company). 
 
+- I doesn't really like studying in Academica so I spend most of my effort in actually software engineering work and open source contributions, and didn't ~~waste~~ invest much time in studying during my University and Secondary school time. I am litaerlly paying about 20K USD to get a piece of paper with the word certificate on it. Still I got quite a good result in my secondary school public exam and it grants me to a Bachelor of Engineering entry in HKU which has a QS ranking like 20-30.
+
 [1]: https://michaellee8.com/
 [2]: https://www.standwithhk.org/
 [3]: https://golang.org/
@@ -68,13 +70,28 @@ Please have a look at my resume at https://resume.michaellee8.com/ on my work ex
 
 I maybe the engineer you are looking for if you re finding someone who: 
 
-- Takes software engineering seriously, not just care about whether that feature works, but also care about whether that feature has been implemented correctly and cleanly. 
+- **Takes software engineering seriously**, not just care about whether that feature works, but also care about whether that feature has been implemented correctly and cleanly. 
 
-- Cares about long term productivity by embracing clean code structure, code review and testing, whether than short term productivity by submitting code that barely works. 
+- Cares about **long term productivity** by embracing **clean code structure**, **code review** and **testing**, rather than short term productivity by submitting code that barely works. 
 
-- Passionate about software engineering, loves to read source code on open source projects and then contribute actual code to them 
+- **Passionate** about software engineering, loves to read source code on open source projects and then **contribute** actual code to them instead of filing feature requests. 
 
-<!-- start-only: michaellee8.com
+- **A fast learner with a T-shape skillset**. I am more specialized in **Flutter** and **Golang** but I knows a bit of pretty much all those "popular" technologies. I have previously worked in development roles that involves **React.js**, **React Native**, **PHP**, **Node.js**, **MySQL**, **Redis**, **RabbitMQ**, **Kubernetes** and **AWS**. I am a daily user of **Ubuntu Linux** and I mostly develop backend applications in **GCP** VM instance running a combination of **tmux** and **neovim**. I have also learnt a bit of **C/C++** and **Python**. 
 
-end-only: michaellee8.com -->
+I believe job seeking is mutual so I am also looking for comapny that: 
+
+- Offers a **Remote** Engineering role that allows something living in **GMT+8** (Hong Kong). I am looking forward to move to Canada or United States in after two or three years but currently I am unable to do so. 
+
+- Practices a **proper software development process**, which you expect engineers to write well structured code, and you embrace code review and testing. You have a well-formed healthy codebase that doesn't put global declarations everywhere. Preferrably you open-source some of your code or even running on an **open-source business model**.
+
+- Offers a **in-depth technical** engineering role rather than CRUD development ones. I like engineering **challenges** and I am the kind of people who likes to pick up the problems that my collages faces and then work on them, but then it also means that I doesn't really like those boring code gluing copy and paste tasks that should have been automated via some code generation tools instead of done by bare hands, so I hope that you will offer me challenges instead of mechanic tasks.
+
+- Understands the "myth of man month" and "tech debt", hence **values long-term productivity** over short-term output. Some management doesn't understand why would their development team just stop typing code and spend time doing those code architecture planning, code reviews and tests, when adding a HTML button and adding and changing "a few lines" in the backend codebase would have "apparently" done the job. I hope that you would be the kind of company who would invest `2t` of time for developing code with a **proper development process** so you only got 1 bugfix that would cost you `0.3t` of time later, so it totally takes you `2.3t`, rather than pushing engineers to develop features with `0.8t` and then got 5 bugfixes that each one takes you `0.7t`, so it takes you a total of `4.3t`. You **priortize code quality over quantity.**
+
+- Has a **flexible** workplace culture and judges by value created. I am not really in favour of micro-management and ceratainly won't be sitting in front of a webcam 8 hours per day. I hope that you will be allowing me to work when I am feeling energized so that I can produce the most value for you. I also hope that you will be judging my performance by value I have created for you rather than time I have spent or lines of code I have written.
+
+
+<!-- start-only[1]: michaellee8.com
+
+end-only[1] -->
 
