@@ -5,15 +5,15 @@ basics:
   name: Michael Lee
   label: Software Engineer
   mail: ckmichael8@gmail.com
-  url: https://michaellee8.com
-  summary:
-    Previously worked as a Remote Software Engineer dealing with Go backend
-    in a highly concurrent game system. Previously worked in React as well,
-    contributed to Flutter. Pretty heavy linux/tmux/nvim/gcp user in person. 
-    Please see my GitHub profile for open-source and personal projects I have 
-    worked on.
+  website: https://michaellee8.com
+  summary: |
+    - Worked remotely as a Software Engineer in a highly concurrent Go backend for about 2 years. 
+    - Worked part-timely in React Native mobile apps and React webapp for one year. 
+    - Worked in several Flutter freelance job, and contributed to the Flutter project.
+
+    Please see my [website](https://michaellee8.com) and [GitHub profiile](https://github.com/michaellee8) for personal and open-source projects I have worked on. 
   location:
-    countryCode: HK
+    city: Hong Kong
   profiles:
     - network: GitHub
       username: michaellee8
@@ -21,9 +21,11 @@ basics:
     - network: GitLab
       username: michaellee8
       url: https://gitlab.com/michaellee8
-    - network: Linkedin
+    - network: LinkedIn
       username: michaellee88
       url: https://linkedin.com/in/michaellee88
+    - network: pdf
+      url: https://resume.michaellee8.com/resume.pdf
 work:
   - company: TFS Info-Tech Company Limited
     location: Hong Kong
@@ -93,6 +95,13 @@ skills:
       - Bash
       - Vim
       - Tmux
+  - name: Flutter
+    level: Advanced
+    keywords:
+      - Flutter
+    description:
+      Have experience developing multiple Flutter apps, as well as contributing
+      to the Flutter tooling upstream.
   - name: Node.js
     level: Working knowledge
     keywords:
@@ -104,13 +113,6 @@ skills:
       - React.js
       - React
       - React Native
-  - name: Flutter
-    level: Working knowledge
-    keywords:
-      - Flutter
-    description:
-      Have experience developing multiple Flutter apps, as well as contributing
-      to the Flutter tooling upstream.
   - name: SQL
     level: Working knowledge
     keywords:
@@ -130,10 +132,8 @@ languages:
     description: Achieved 5* in Reading, 5 in Writing and Listening and 4 in
       Speaking in 2018 HKDSE, with a summary grade of 4. Currently studying
       for IELTS test.
-  - language: Cantonese / Traditional Chinese
+  - language: Chinese
     fluency: Native
-  - language: Mandarin / Simplified Chinese
-    fluency: Limited Working
 interests:
   - name: Mobile / Computer games
   - name: Watching movies

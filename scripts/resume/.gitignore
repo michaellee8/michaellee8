@@ -1,9 +1,3 @@
-node_modules
-resume.*
-!resume.yaml
-/package*.json
-out/
-
 # Logs
 logs
 *.log
