@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-    pull_request:
 
 jobs:
   build-resume:
@@ -31,33 +30,11 @@ jobs:
         with:
           name: out-home
           path: out/home
-  build_and_preview:
+  deploy:
     runs-on: ubuntu-20.04
     needs:
       - build-resume
       - build-home
-    if: "${{ github.event.pull_request.head.repo.full_name == github.repository && github.event_name == 'pull_request' }}"
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/download-artifact@v2
-        with:
-          name: out-resume
-          path: out/resume
-      - uses: actions/download-artifact@v2
-        with:
-          name: out-home
-          path: out/home
-      - uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_MICHAELLEE8_COM }}"
-          projectId: michaellee8-com
-  build_and_deploy:
-    runs-on: ubuntu-20.04
-    needs:
-      - build-resume
-      - build-home
-    if: "${{ github.event.pull_request.head.repo.full_name == github.repository && github.event_name == 'push' && github.ref == 'refs/heads/master' }}"
     steps:
       - uses: actions/checkout@v2
       - uses: actions/download-artifact@v2
