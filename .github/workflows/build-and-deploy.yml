@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 16.3.0
       - run: wget https://github.com/mikefarah/yq/releases/download/v4.2.0/yq_linux_amd64 -O /usr/bin/yq && chmod +x /usr/bin/yq
-      - run: cd scripts/resume && npm ci && npm run build && cd ../../
+      - run: cd ./scripts/resume && npm ci && npm run build && cd ../../
       - uses: actions/upload-artifact@v2
         with:
           name: out-resume
@@ -25,7 +25,8 @@ jobs:
     name: Build home
     runs-on: ubuntu-20.04
     steps:
-      - run: cd scripts/home && ./build.sh && cd ../
+      - uses: actions/checkout@v2
+      - run: cd ./scripts/home && ./build.sh && cd ../
       - uses: actions/upload-artifact@v2
         with:
           name: out-home
