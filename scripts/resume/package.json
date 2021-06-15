@@ -9,11 +9,11 @@
     "start": "python3 -m http.server --bind 127.0.0.1 --directory ../../out/resume 8081"
   },
   "dependencies": {
-    "jsonresume-theme-elegant": "github:michaellee8/jsonresume-theme-elegant#a58d7441894f89c7e64dc4a1619e934e89a11390"
+    "jsonresume-theme-elegant": "github:michaellee8/jsonresume-theme-elegant#a58d7441894f89c7e64dc4a1619e934e89a11390",
+    "resume-cli": "^3.0.4"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "resume-cli": "^3.0.4"
   }
 }
