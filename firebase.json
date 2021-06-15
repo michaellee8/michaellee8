@@ -1,0 +1,28 @@
+{
+  "hosting": [
+    {
+      "target": "resume",
+      "public": "out/resume",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/resume.html"
+        }
+      ]
+    },
+    {
+      "target": "home",
+      "public": "out/home",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "michaellee8-com"
+  },
+  "targets": {
+    "michaellee8-com": {
+      "hosting": {
+        "home": [
+          "michaellee8-com"
+        ],
+        "resume": [
+          "resume-michaellee8-com"
+        ]
+      }
+    }
+  }
+}

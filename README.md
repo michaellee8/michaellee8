@@ -78,7 +78,7 @@ I may be the engineer you are looking for if you are finding someone who:
 
 - **Passionate** about software engineering, loves to read source code on open source projects and then **contribute** actual code to them instead of filing feature requests. 
 
-- **A fast learner with a T-shape skillset**. I am more specialized in **Flutter** and **Golang** but I know a bit of pretty much all those "popular" technologies. I have previously worked in development roles that involves **React.js**, **React Native**, **PHP**, **Node.js**, **MySQL**, **Redis**, **RabbitMQ**, **Kubernetes** and **AWS**. I am a daily user of **Ubuntu Linux** and I mostly develop backend applications in **GCP** VM instance running a combination of **tmux** and **neovim**. I have also learnt a bit of **C/C++** and **Python**. 
+- **A fast learner with a T-shape skillset**. I am more specialized in **Flutter** and **Golang** but I know a bit of pretty much all those "popular" technologies. I have previously worked in development roles that involves **React.js**, **React Native**, **PHP**, **Node.js**, **MySQL**, **Redis**, **RabbitMQ**, **Docker**, **Kubernetes** and **AWS**. I am a daily user of **Ubuntu Linux** and I mostly develop backend applications in **GCP** VM instance running a combination of **tmux** and **neovim**. I have also learnt a bit of **C/C++** and **Python**. 
 
 I believe job seeking is mutual so I am also looking for a comapny that: 
 
