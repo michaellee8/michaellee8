@@ -27,7 +27,8 @@ jobs:
         with:
           name: out-home
           path: out/home
-  deploy:
+  preview:
+    if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-20.04
     needs:
       - build-resume
