@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 16.3.0
-      - run: wget https://github.com/mikefarah/yq/releases/download/v4.2.0/yq_linux_amd64 -O /usr/bin/yq && chmod +x /usr/bin/yq
+      - run: sudo wget https://github.com/mikefarah/yq/releases/download/v4.2.0/yq_linux_amd64 -O /usr/bin/yq && sudo chmod +x /usr/bin/yq
       - run: cd ./scripts/resume && npm ci && npm run build && cd ../../
       - uses: actions/upload-artifact@v2
         with:
