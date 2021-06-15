@@ -9,7 +9,7 @@
     "start": "python3 -m http.server --bind 127.0.0.1 --directory ../../out/resume 8081"
   },
   "dependencies": {
-    "jsonresume-theme-elegant": "github:michaellee8/jsonresume-theme-elegant#412e9e38594c5a36deac4c2f7191524523f8b2d0"
+    "jsonresume-theme-elegant": "github:michaellee8/jsonresume-theme-elegant#a58d7441894f89c7e64dc4a1619e934e89a11390"
   },
   "author": "",
   "license": "ISC",
