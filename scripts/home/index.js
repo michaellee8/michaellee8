@@ -1,7 +1,9 @@
 const fs = require("fs");
 const process = require("process");
 
-let mdText = fs.readFileSync(`${__dirname}/../../README.md`, "utf-8");
+const ourDir = `${__dirname}/../../out/home/`;
+
+const mdText = fs.readFileSync(`${__dirname}/../../README.md`, "utf-8");
 
 const target = process.argv[2] ? process.argv[2] : null;
 
