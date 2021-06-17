@@ -1,0 +1,20 @@
+{
+  "name": "michaellee8-com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js michaellee8.com && cp style.css script.js ../../out/home",
+    "watch": "ls | entr -s 'npm run build'",
+    "start": "python3 -m http.server --bind 127.0.0.1 --directory ../../out/home 8082"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "remark": "^13.0.0",
+    "remark-gfm": "^1.0.0",
+    "remark-html": "^13.0.1",
+    "remark-preset-lint-recommended": "^5.0.0"
+  }
+}
