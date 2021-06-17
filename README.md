@@ -9,7 +9,7 @@ I am a self-taught Software Engineer from [Hong Kong][2]. Previously worked in R
 
 I would describe myself as a technical focused **problem-solver** who prioritize **quality** over quantity. I have a passion to solve hard technical obstacles that others would have gave up, both obstacles from work and from open-source projects that I often work with. I also value taking extra time to submit carefully structured and tested bug-free code rather than submitting buggy non-maintainable code to shorten development time. I always believe that quality code would boost productivity hence quantity in the long term. 
 
-Please have a look at my resume at https://resume.michaellee8.com/ on my work experiences and skillsets. Also please feel free to pay a visit to my website at https://michaellee8.com.
+Please have a look at my resume at https://resume.michaellee8.com/ on my work experiences and skillsets. Also please feel free to pay a visit to my website at https://michaellee8.com and my GitHub profile at https://github.com/michaellee8 
 
 ## Some of my recent personal projects:
 
