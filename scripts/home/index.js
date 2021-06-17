@@ -76,6 +76,7 @@ remark()
 <head>
 <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 <meta content="utf-8" http-equiv="encoding">
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>michaellee8.com</title>
 <script src="script.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/marx-css/css/marx.min.css">
