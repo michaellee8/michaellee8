@@ -1,19 +1,21 @@
 {
-  "name": "michaellee8-resume",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./build.sh",
-    "start": "python3 -m http.server --bind 127.0.0.1 --directory ../../out/resume 8081"
-  },
-  "dependencies": {
-    "jsonresume-theme-elegant": "github:michaellee8/jsonresume-theme-elegant#a58d7441894f89c7e64dc4a1619e934e89a11390",
-    "resume-cli": "^3.0.4"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-  }
+    "name": "michaellee8-resume",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "./build.sh",
+        "build:pdf": "node index.js",
+        "start": "python3 -m http.server --bind 127.0.0.1 --directory ../../out/resume 8081"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "jsonresume-theme-elegant": "github:michaellee8/jsonresume-theme-elegant#3048d10a56d28145e906ae523554ada1f4e29e85",
+        "puppeteer": "^5.5.0",
+        "resume-cli": "^3.0.4"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {}
 }
