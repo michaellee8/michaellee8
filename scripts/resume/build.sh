@@ -23,3 +23,5 @@ cp -r ./node_modules/jsonresume-theme-elegant/assets/icomoon ../../out/resume/as
 
 
 npm run build:pdf
+
+cp ../../resume.yaml ../../out/resume/
