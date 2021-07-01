@@ -21,6 +21,7 @@ Please have a look at my resume at https://resume.michaellee8.com/ on my work ex
 ## Some of my recent open-source contributions/participations:
 
 - [Flutter][12]: Actively contributing to Flutter's [tooling][14] [on][15] Fuchsia. Currently participating in the [discussion][13] and doing some small experiments on enabling Hot Reload under Flutter Web. 
+- [Dart][20]: [Patched][21] an ipv6-induced bug in Dart SDK.
 - [vifm][16]: Contributed an AppImage generation [script][17]. 
 
 ## Contacts
@@ -57,6 +58,8 @@ Please have a look at my resume at https://resume.michaellee8.com/ on my work ex
 [17]: https://github.com/vifm/vifm/pull/615/
 [18]: https://linkedin.com/in/michaellee88
 [19]: https://api.github.com/repos/michaellee8/michaellee8/commits
+[20]: https://github.com/dart-lang/sdk
+[21]: https://github.com/dart-lang/sdk/commit/4160a6b361884914eb2bf74364b453d3c8be7b59
 
 [github]: https://github.com/michaellee8
 [gitlab]: https://gitlab.com/michaellee8
