@@ -5,7 +5,7 @@
 [<img src="https://simpleicons.org/icons/linkedin.svg" alt="Linkedn" width="30"/>][linkedin]
 
 
-I am a self-taught Software Engineer from [Hong Kong][2]. Previously worked in Remote [Golang][3] backend engineering roles and [React Native][5] frontend roles. Loves coding in **[Golang][3]** and **[Flutter][4]**. Currently studying Computer Engineering at the [University of Hong Kong][6]. Daily linux/tmux/neovim/gcp user. Contributor to the Dart/Flutter/Fuchsia ecosystem.
+I am a self-taught Software Engineer from [Hong Kong][2]. Previously worked in Remote [Golang][3] backend engineering roles and [React Native][5] frontend roles. Loves coding in **[Golang][3]** and **[Flutter][4]**. Daily linux/tmux/neovim/gcp user. Contributor to the Dart/Flutter/Fuchsia ecosystem.
 
 I would describe myself as a technical focused **problem-solver** who prioritize **quality** over quantity. I have a passion to solve hard technical obstacles that others would have gave up, both obstacles from work and from open-source projects that I often work with. I also value taking extra time to submit carefully structured and tested bug-free code rather than submitting buggy non-maintainable code to shorten development time. I always believe that quality code would boost productivity hence quantity in the long term. 
 
