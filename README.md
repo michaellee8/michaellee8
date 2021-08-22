@@ -16,7 +16,6 @@ Please have a look at my resume at https://resume.michaellee8.com/ on my work ex
 - [flutter_blue_beacon][7]: An Flutter library to implement iBeacon and Eddystone scanning on top of `flutter_blue`.
 - [fluuter_fuchsia_toolchain][8]: A set of scripts to allow easier development of Flutter apps in Google's Fuchsia OS.
 - [pubenvconfig][9]: My daily working environment setup, populated with a set of configs and scripts for tools that I use frequently, like Neovim and Tmux. You can see my setup for developing Flutter apps **on** (not for) Android devices [here][11].
-- [clui-nix][10]: A WIP experiment to implement a graphical CLUI (Command Line User Interface) for *nix environment. Currently working on a prototype that includes `zsh` provider, terminal ui and websocket consumer, and a Flutter-based frontend client. 
 
 ## Some of my recent open-source contributions/participations:
 
