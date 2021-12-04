@@ -30,6 +30,18 @@ basics:
     - network: pdf
       url: https://resume.michaellee8.com/resume.pdf
 work:
+  - company: Torus Labs
+    location: Singapore
+    description: Non-custodial Key Management, Meets Passwordless Auth
+    position: Software Engineer
+    url: https://tor.us/
+    startDate: "2021-08"
+    summary: Torus is a distributed private key management solution. By abstracting the management of private keys away from the end user, we allow users to start making use of blockchain applications using familiar authentication methods like Google or Facebook login. Our goal is to allow any digital identity to be a valid cross-platform identifier, allowing users to bring their digital identities with them to any application on the Internet.
+    highlights:
+      - Maintence and further development of the CustomAuth and OoenLogin iOS and Android SDKs.
+      - Development of CustomAuth and OpenLogin React Native and Flutter SDKs.
+      - Developer relation on Mobile SDK consumers.
+
   - company: TFS Info-Tech Company Limited
     location: Hong Kong
     description: A company building a highly concurrent game
