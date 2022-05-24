@@ -43,7 +43,7 @@ work:
     startDate: "2021-08"
     summary: Web3Auth is a distributed private key management solution. By abstracting the management of private keys away from the end user, we allow users to start making use of blockchain applications using familiar authentication methods like Google or Facebook login. Our goal is to allow any digital identity to be a valid cross-platform identifier, allowing users to bring their digital identities with them to any application on the Internet.
     highlights:
-      - Developmemnt of full suite of mobile SDKs on Android. iOS, Flutter and React Native, for Web3Auth and CustomAuth.
+      - Developmemnt of full suite of mobile SDKs on Android, iOS, Flutter and React Native, for Web3Auth and CustomAuth.
         From never touched native mobile development to developing across the whole mobile stack in 10 months.
       - Developer relation and support from client developers for integrating our SDKs, troubleshooting across the full stack,
         from blockchain nodes written in Go, backenc services written in Node.js, frontend webapps written in Vue.js and React.js,
