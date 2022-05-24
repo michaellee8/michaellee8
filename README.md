@@ -41,7 +41,7 @@ Please have a look at my resume at https://resume.michaellee8.com/ on my work ex
 - I started programming about 10 years ago when I borrowed a very outdated Visual Basic 6.0 book from a local library. My first project was a "Michael Explorer" that embeds IE 7 with a few buttons for navigation. I actually got my first job at a learning product company that provides my Secondary school's e-Learning platform by discovering multiple security flaws in the platform (and fixed all of them after joining the company).
 
 - I don't really like studying in Academica so I spend most of my effort in actually software engineering work and open source contributions, and didn't ~~waste~~ invest much time in studying during my University and Secondary school time. I am literally paying about 20K USD to get a piece of paper with the word certificate on it. Still, I got quite a good result in my secondary school public exam and it grants me a Bachelor of Engineering entry in HKU which has a QS ranking like 20-30.
-  https://github.com/torusresearch/react-native-web-browser
+
   [1]: https://michaellee8.com/
   [2]: https://www.standwithhk.org/
   [3]: https://golang.org/
