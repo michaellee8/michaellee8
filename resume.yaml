@@ -8,13 +8,12 @@ basics:
   website: https://michaellee8.com
   picture: ""
   summary: |
-    - Strong interest on engineering backend systems, particularly low level, algorithmic and distributed stuffs.
+    - Strong interest on engineering backend systems, particularly low level, distributed, networking and optimization stuffs.
     - Stromg skills accross the full application and web development stack, including frontend, backend, mobile and devops.
-    - Worked remotely as a Software Engineer in a highly concurrent Go backend for about 2 years. 
-    - Worked part-timely in React Native mobile apps and React webapp for one year. 
-    - Worked in several Flutter freelance job, and contributed to the Flutter project.
+    - Worked 3 years in a full-time software enginerring role across different industries remotely.
 
     Please see my [website](https://michaellee8.com) and [GitHub profiile](https://github.com/michaellee8) for personal and open-source projects I have worked on.
+
   location:
     city: Hong Kong
   profiles:
@@ -68,16 +67,12 @@ work:
         serve a large amount of concurrent external connections, and gRPC for
         internal low latency communication, with MySQL as database and Redis
         as cache and secondary low latency database, mainly implemented with
-        Golang with additional Javascript libraries provided for frontend
-        consumption. Previous load testing indicates a concurrent peak
-        loading of at least 10K users when backed with message brokers and
-        databases with sufficient capacity.
-      - Implementing of a low latency and highly efficient custom authentication
-        system for the RabbitMQ broker, backed by Redis.
+  - company: HKU e-Learning Development Laboratory
+      system for the RabbitMQ broker, backed by Redis.
       - Providing a rigidly tested, well-structured system with reusable
-        modules to draw different graphs based on the current state of the system.
+      modules to draw different graphs based on the current state of the system.
       - Implementing additional features and bugfixes on a MySQL-backed content
-        management system, across different services.
+      management system, across different services.
 
   - company: HKU e-Learning Development Laboratory
     name: HKU e-Learning Development Laboratory
