@@ -70,12 +70,16 @@ work:
         serve a large amount of concurrent external connections, and gRPC for
         internal low latency communication, with MySQL as database and Redis
         as cache and secondary low latency database, mainly implemented with
-  - company: HKU e-Learning Development Laboratory
-      system for the RabbitMQ broker, backed by Redis.
+        Golang with additional Javascript libraries provided for frontend
+        consumption. Previous load testing indicates a concurrent peak
+        loading of at least 10K users when backed with message brokers and
+        databases with sufficient capacity.
+      - Implementing a low latency and highly efficient custom authentication
+        system for the RabbitMQ broker, backed by Redis.
       - Providing a rigidly tested, well-structured system with reusable
-      modules to draw different graphs based on the current state of the system.
+        modules to draw different graphs based on the current state of the system.
       - Implementing additional features and bugfixes on a MySQL-backed content
-      management system, across different services.
+        management system, across different services.
 
   - company: HKU e-Learning Development Laboratory
     name: HKU e-Learning Development Laboratory
