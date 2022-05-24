@@ -8,11 +8,15 @@ basics:
   website: https://michaellee8.com
   picture: ""
   summary: |
-    - Worked remotely as a Software Engineer in a highly concurrent Go backend for about 2 years. 
-    - Worked part-timely in React Native mobile apps and React webapp for one year. 
-    - Worked in several Flutter freelance job, and contributed to the Flutter project.
+    - Strong interest on engineering backend systems, particularly low level,
+      distributed, networking and optimization stuffs.
+    - Stromg skills accross the full application and web development stack,
+      including frontend, backend, mobile and devops.
+    - Worked 3 years in a full-time software enginerring role across
+      different fields remotely.
 
-    Please see my [website](https://michaellee8.com) and [GitHub profiile](https://github.com/michaellee8) for personal and open-source projects I have worked on. 
+    Please see my [website](https://michaellee8.com) and [GitHub profiile](https://github.com/michaellee8) for personal and open-source projects I have worked on.
+
   location:
     city: Hong Kong
   profiles:
@@ -30,27 +34,33 @@ basics:
     - network: pdf
       url: https://resume.michaellee8.com/resume.pdf
 work:
-  - company: Torus Labs
-    location: Singapore
-    description: Non-custodial Key Management, Meets Passwordless Auth
+  - company: Web3Auth
+    name: Web3Auth
+    location: Singapore (Remote)
+    description: Simple self-custodial auth infra for Web3 apps and wallets
     position: Software Engineer
-    url: https://tor.us/
+    url: https://web3auth.io/
     startDate: "2021-08"
-    summary: Torus is a distributed private key management solution. By abstracting the management of private keys away from the end user, we allow users to start making use of blockchain applications using familiar authentication methods like Google or Facebook login. Our goal is to allow any digital identity to be a valid cross-platform identifier, allowing users to bring their digital identities with them to any application on the Internet.
+    summary: Web3Auth is a distributed private key management solution. By abstracting the management of private keys away from the end user, we allow users to start making use of blockchain applications using familiar authentication methods like Google or Facebook login. Our goal is to allow any digital identity to be a valid cross-platform identifier, allowing users to bring their digital identities with them to any application on the Internet.
     highlights:
-      - Maintence and further development of the CustomAuth and OpenLogin iOS and Android SDKs.
-      - Development of CustomAuth and OpenLogin React Native and Flutter SDKs.
-      - Developer relation on Mobile SDK consumers.
+      - Developmemnt of full suite of mobile SDKs on Android. iOS, Flutter and React Native, for Web3Auth and CustomAuth.
+        From never touched native mobile development to developing across the whole mobile stack in 10 months.
+      - Developer relation and support from client developers for integrating our SDKs, troubleshooting across the full stack,
+        from blockchain nodes written in Go, backenc services written in Node.js, frontend webapps written in Vue.js and React.js,
+        to mobile SDK written on the aforementioned languages.
+      - Created the [react-native-web-browser](https://github.com/torusresearch/react-native-web-browser) package,
+        which allows the same API to be used for opening browser sessions in both Expo and bare React Native apps.
+        Reducing React Native related support requests by at least 50%.
 
   - company: TFS Info-Tech Company Limited
+    name: TFS Info-Tech Company Limited
     location: Hong Kong
-    description: A company building a highly concurrent game
+    description: A company building a highly concurrent stream and game app
     position: Junior Software Analyst
     url: https://tfs-grp.com/
     startDate: "2019-08"
     endDate: "2021-06"
-    summary: 
-      In TFS, we were building a highly concurrent game system that
+    summary: In TFS, we were building a highly concurrent game system that
       is expected to stream live video feed and then accept input to a
       large amount of players. I am responsible for developing the
       Golang-based microservices system.
@@ -60,17 +70,15 @@ work:
         serve a large amount of concurrent external connections, and gRPC for
         internal low latency communication, with MySQL as database and Redis
         as cache and secondary low latency database, mainly implemented with
-        Golang with additional Javascript libraries provided for frontend
-        consumption. Previous load testing indicates a concurrent peak
-        loading of at least 10K users when backed with message brokers and
-        databases with sufficient capacity.
-      - Implementing of a low latency and highly efficient custom authentication
-        system for the RabbitMQ broker, backed by Redis.
-      - Providing a rigidly tested, well-structured system with reusable
-        modules to draw different graphs based on the current state of the system.
-      - Implementing additional features and bugfixes on a MySQL-backed content
-        management system, across different services.
   - company: HKU e-Learning Development Laboratory
+      system for the RabbitMQ broker, backed by Redis.
+      - Providing a rigidly tested, well-structured system with reusable
+      modules to draw different graphs based on the current state of the system.
+      - Implementing additional features and bugfixes on a MySQL-backed content
+      management system, across different services.
+
+  - company: HKU e-Learning Development Laboratory
+    name: HKU e-Learning Development Laboratory
     location: Hong Kong
     startDate: "2018-05"
     endDate: "2019-06"
@@ -84,6 +92,7 @@ work:
         Learning Management System service, utilizing Node.js, PHP and MySQL.
       - Development and deployment of the iClass Student Information System,
         utilizing PHP, MySQL and Docker.
+
 education:
   - institution: University of Hong Kong
     url: https://hku.hk/
@@ -118,12 +127,12 @@ skills:
       Have experience developing multiple Flutter apps, as well as contributing
       to the Flutter tooling upstream.
   - name: Node.js
-    level: Working knowledge
+    level: Advanced
     keywords:
       - Node.js
       - Javascript
   - name: React.js / React Native
-    level: Working Knowledge
+    level: Advanced
     keywords:
       - React.js
       - React
@@ -145,13 +154,9 @@ languages:
   - language: English
     fluency: Bilingual
     description: Achieved 5* in Reading, 5 in Writing and Listening and 4 in
-      Speaking in 2018 HKDSE, with a summary grade of 4. Currently studying
-      for IELTS test.
+      Speaking in 2018 HKDSE, with a summary grade of 4. Will do IELTS test in near future.
   - language: Chinese
     fluency: Native
 interests:
   - name: Mobile / Computer games
   - name: Watching movies
-  - name: Fuchsia OS
-  - name: Raspberry PI / Arduino
-
