@@ -4,7 +4,7 @@
 [<img src="https://simpleicons.org/icons/gitlab.svg" alt="GitLab" width="30"/>][gitlab]
 [<img src="https://simpleicons.org/icons/linkedin.svg" alt="Linkedn" width="30"/>][linkedin]
 
-I am a self-taught Software Engineer from [Hong Kong][2] who have strong interest on engineering backend system, particularly low level, distributed, networking and optimization stuffs. I have previously done and accquired skills across the full application and web development stack, including frontend, backend, mobild and devops. I have worked for 3 years in a full-time software enginerring role across different fields remotely.
+I am a self-taught Software Engineer from [Hong Kong][2] who have strong interest on engineering backend system, particularly low level, distributed, networking and optimization stuffs. I have previously done and accquired skills across the full application and web development stack, including frontend, backend, mobild and devops. I have worked for 3 years in a full-time software enginerring role across different fields remotely. I am a exteremely fast learner, who learnt from never touched native mobile development to developing and maintaining mobile SDKs on multiple platforms in less than 10 months.
 
 I would describe myself as a technical focused **problem-solver** who prioritize **quality** over quantity. I have a passion to solve hard technical obstacles that others would have gave up, both obstacles from work and from open-source projects that I often work with. I also value taking extra time to submit carefully structured and tested bug-free code rather than submitting buggy non-maintainable code to shorten development time. I always believe that quality code would boost productivity hence quantity in the long term.
 
