@@ -4,7 +4,7 @@
 [<img src="https://simpleicons.org/icons/gitlab.svg" alt="GitLab" width="30"/>][gitlab]
 [<img src="https://simpleicons.org/icons/linkedin.svg" alt="Linkedn" width="30"/>][linkedin]
 
-I am a self-taught Software Engineer from [Hong Kong][2] who have strong interest on engineering backend system, particularly low level, distributed, networking and optimization stuffs. I have previously done and accquired skills across the full application and web development stack, including frontend, backend, mobild and devops. I have worked for 3 years in a full-time software enginerring role across different fields remotely. I am a exteremely fast learner, who learnt from never touched native mobile development to developing and maintaining mobile SDKs on multiple platforms in less than 10 months.
+I am a self-taught Software Engineer from Hong Kong who have strong interest on engineering backend system, particularly low level, distributed, networking and optimization stuffs. I have previously done and accquired skills across the full application and web development stack, including frontend, backend, mobild and devops. I have worked for 3 years in a full-time software enginerring role across different fields remotely. I am a exteremely fast learner, who learnt from never touched native mobile development to developing and maintaining mobile SDKs on multiple platforms in less than 10 months.
 
 I would describe myself as a technical focused **problem-solver** who prioritize **quality** over quantity. I have a passion to solve hard technical obstacles that others would have gave up, both obstacles from work and from open-source projects that I often work with. I also value taking extra time to submit carefully structured and tested bug-free code rather than submitting buggy non-maintainable code to shorten development time. I always believe that quality code would boost productivity hence quantity in the long term.
 
@@ -43,7 +43,6 @@ Please have a look at my resume at https://resume.michaellee8.com/ on my work ex
 - I don't really like studying in Academica so I spend most of my effort in actually software engineering work and open source contributions, and didn't ~~waste~~ invest much time in studying during my University and Secondary school time. I am literally paying about 20K USD to get a piece of paper with the word certificate on it. Still, I got quite a good result in my secondary school public exam and it grants me a Bachelor of Engineering entry in HKU which has a QS ranking like 20-30.
 
   [1]: https://michaellee8.com/
-  [2]: https://www.standwithhk.org/
   [3]: https://golang.org/
   [4]: https://flutter.dev/
   [5]: https://reactnative.dev/
