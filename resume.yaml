@@ -39,6 +39,7 @@ work:
     position: Software Engineer
     url: https://web3auth.io/
     startDate: "2021-08"
+    endDate: "2022-06"
     summary: Web3Auth is a distributed private key management solution. By abstracting the management of private keys away from the end user, we allow users to start making use of blockchain applications using familiar authentication methods like Google or Facebook login. Our goal is to allow any digital identity to be a valid cross-platform identifier, allowing users to bring their digital identities with them to any application on the Internet.
     highlights:
       - Developmemnt of full suite of mobile SDKs on Android, iOS, Flutter and React Native, for Web3Auth and CustomAuth.
