@@ -12,6 +12,7 @@ Please have a look at my resume at https://resume.michaellee8.com/ on my work ex
 
 ## Some of my recent personal projects:
 
+- [dynproxy][25]: A dynamically reconfigureable raw TCP proxy written in Golang.
 - [SafeIsolator][22]: An prototype mobile app that allows one to completely isolate an untrusted
   app from other apps in the phone and the internet.
 - [flutter_blue_beacon][7]: An Flutter library to implement iBeacon and Eddystone scanning on top of `flutter_blue`.
@@ -65,6 +66,7 @@ Please have a look at my resume at https://resume.michaellee8.com/ on my work ex
   [22]: https://github.com/michaellee8/SafeIsolatorForAndroid
   [23]: https://github.com/torusresearch/react-native-web-browser
   [24]: https://github.com/web3auth
+  [25]: https://github.com/michaellee8/dynproxy
   [github]: https://github.com/michaellee8
   [gitlab]: https://gitlab.com/michaellee8
   [linkedin]: https://linkedin.com/in/michaellee88
