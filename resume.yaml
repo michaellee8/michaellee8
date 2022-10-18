@@ -109,6 +109,10 @@ awards:
     awarder: The Hong Kong Association of Computer Education
     summary: A programming competition focused on algorithm building, achieved
       during my secondary school days.
+  - title: Finalist in J.P. Morgan Code For Good 2022
+    date: "2022-09"
+    awarder: J.P. Morgan Chase
+    summary: One of 4 finalists out of 12 teams in the hackathon of providing solutions to NGO problems
 skills:
   - name: Golang
     level: Advanced
