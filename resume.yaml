@@ -102,7 +102,7 @@ education:
     area: Computer Engineering
     studyType: Bachelor
     startDate: "2018-09"
-    endDate: "2023-01"
+    endDate: "2022-12"
 awards:
   - title: Sliver Medal in Hong Kong Olympiad in Informatics
     date: "2016"
@@ -168,3 +168,8 @@ languages:
 interests:
   - name: Mobile / Computer games
   - name: Watching movies
+certificates:
+  - name: Amazon Web Services Cloud Practitioner
+    date: "2023-02-22"
+    issuer: Amazon Web Services (AWS)
+    url: https://www.credly.com/badges/9cbaae3a-037c-4a1f-9815-85993c2ec966/public_url
