@@ -161,13 +161,8 @@ skills:
 languages:
   - language: English
     fluency: Bilingual
-    description: Achieved 5* in Reading, 5 in Writing and Listening and 4 in
-      Speaking in 2018 HKDSE, with a summary grade of 4. Will do IELTS test in near future.
   - language: Chinese
     fluency: Native
-interests:
-  - name: Mobile / Computer games
-  - name: Watching movies
 certificates:
   - name: Amazon Web Services Cloud Practitioner
     date: "2023-02-22"
