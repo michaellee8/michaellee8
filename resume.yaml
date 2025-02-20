@@ -32,6 +32,18 @@ basics:
     - network: pdf
       url: https://resume.michaellee8.com/resume.pdf
 work:
+  - company: J.P. Morgan Chase
+    name: J.P. Morgan Chase
+    location: Hong Kong
+    startDate: "2023-03"
+    endDate: "2025-04"
+  - company: Unicorn Farms
+    name: Chatapp
+    location: United States (Remote)
+    startDate: "2022-07"
+    endDate: "2023-02"
+    position: Software Engineer
+    description: Remote freelancing in a US startup on to develop a Node.js (Nest.js and Prisma) and Firebase based backend for a Chat-orienated social network app, as well as deploy it on Google Cloud Platform and Vercel.
   - company: Web3Auth
     name: Web3Auth
     location: Singapore (Remote)
@@ -42,8 +54,7 @@ work:
     endDate: "2022-06"
     summary: Web3Auth is a distributed private key management solution. By abstracting the management of private keys away from the end user, we allow users to start making use of blockchain applications using familiar authentication methods like Google or Facebook login. Our goal is to allow any digital identity to be a valid cross-platform identifier, allowing users to bring their digital identities with them to any application on the Internet.
     highlights:
-      - Developmemnt of full suite of mobile SDKs on Android, iOS, Flutter and React Native, for Web3Auth and CustomAuth.
-        From never touched native mobile development to developing across the whole mobile stack in 10 months.
+      - Developmemnt of full suite of mobile SDKs on Android, iOS, Flutter and React Native, for Web3Auth and CustomAuth, with hundreds of downloads per week.
       - Developer relation and support from client developers for integrating our SDKs, troubleshooting across the full stack,
         from blockchain nodes written in Go, backenc services written in Node.js, frontend webapps written in Vue.js and React.js,
         to mobile SDK written on the aforementioned languages.
@@ -73,11 +84,11 @@ work:
         consumption. Previous load testing indicates a concurrent peak
         loading of at least 10K users when backed with message brokers and
         databases with sufficient capacity.
-      - Implementing a low latency and highly efficient custom authentication
+      - Implemented a low latency and highly efficient custom authentication
         system for the RabbitMQ broker, backed by Redis.
-      - Providing a rigidly tested, well-structured system with reusable
+      - Provided a rigidly tested, well-structured system with reusable
         modules to draw different graphs based on the current state of the system.
-      - Implementing additional features and bugfixes on a MySQL-backed content
+      - Implemented additional features and bugfixes on a MySQL-backed content
         management system, across different services.
 
   - company: HKU e-Learning Development Laboratory
@@ -89,9 +100,10 @@ work:
     description: A Laboratory inside the University of Hong Kong developing
       a set of helpful e-Learning solutions.
     highlights:
-      - Development of the iClass Parental Control System mobile app, which provides
-        parents an interface to control their own kids' devices, in React Native.
-      - Further development and maintenance of the iClass Mobile Management and
+      - Developed of the iClass Parental Control System mobile app, which provides
+        parents an interface to control their own kids' devices, in React Native,
+        and being used in hundreds of Hong Kong schools.
+      - Developed and maintained of the iClass Mobile Management and
         Learning Management System service, utilizing Node.js, PHP and MySQL.
       - Development and deployment of the iClass Student Information System,
         utilizing PHP, MySQL and Docker.
@@ -120,6 +132,14 @@ skills:
     keywords:
       - Golang
       - Go
+  - name: Java
+    level: Advanced
+    keywords:
+      - Java
+  - name: Spring Boot
+    level: Advanced
+  - name: Kubernetes
+    level: Intermediate
   - name: Linux system
     level: Advanced
     keywords:
@@ -168,3 +188,11 @@ certificates:
     date: "2023-02-22"
     issuer: Amazon Web Services (AWS)
     url: https://www.credly.com/badges/9cbaae3a-037c-4a1f-9815-85993c2ec966/public_url
+  - name: Google Cloud Certified Associate Cloud Engineer
+    date: "2023-03-03"
+    issuer: Google
+    url: https://www.credential.net/c236b907-79c5-4506-8ab9-06c763971685#acc.eySv0QJg
+  - name: TensorFlow Developer Certificate
+    date: "2023-04-05"
+    issuer: Google
+    url: https://www.credential.net/3cd8e3e4-3540-44c8-820c-4e95405bb457#acc.u69gf4HS
