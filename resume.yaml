@@ -1,205 +1,133 @@
-$schema: https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
-# yaml-language-server: $schema=https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
-
-basics:
-  name: Michael Lee
-  label: Software Engineer
-  mail: ckmichael8@gmail.com
-  website: https://michaellee8.com
-  picture: ""
-  summary: |
-    - Strong interest on engineering backend systems, particularly low level, distributed, networking and optimization stuffs.
-    - Stromg skills accross the full application and web development stack, including frontend, backend, mobile and devops.
-    - Worked 6 years in a full-time software enginerring role across different fields remotely.
-    - Exteremely fast learner, from never touched native mobile development to developing and maintaining mobile SDKs on multiple platforms in less than 10 months fyi.
-
-    Please see my [website](https://michaellee8.com) and [GitHub profiile](https://github.com/michaellee8) for personal and open-source projects I have worked on.
-
-  location:
-    city: Hong Kong
-  profiles:
-    - network: www
-      url: https://michaellee8.com
-    - network: GitHub
-      username: michaellee8
-      url: https://github.com/michaellee8
-    - network: GitLab
-      username: michaellee8
-      url: https://gitlab.com/michaellee8
-    - network: LinkedIn
-      username: michaellee88
-      url: https://linkedin.com/in/michaellee88
-    - network: pdf
-      url: https://resume.michaellee8.com/resume.pdf
-work:
-  - company: J.P. Morgan Chase
-    name: J.P. Morgan Chase
-    location: Hong Kong
-    startDate: "2023-03"
-    endDate: "2025-04"
-    position: Software Engineer I
-    description: Private Bank JPOI team
-    highlights:
-      - Devloped both backend microervices and frontend webapps of multiple trading-related applications, using Java Spring Boot, Angular and MSSQL.
-      - Deployed applications following DevOps principle with internal Kubernetes/Cloud Foundary/Jenkins based platform.
-      - Performed security penetration testing on team projects and discovered 6 exploitable OSWAP top 10 vulnerabilities.
-  - company: Unicorn Farms
-    name: Chatapp
-    location: United States (Remote)
-    startDate: "2022-07"
-    endDate: "2023-02"
-    position: Software Engineer
-    summary: Remote freelancing in a US startup on to develop a Node.js (Nest.js and Prisma + MySQL) and Firebase based backend for a Chat-orienated social network app, as well as deploy it on Google Cloud Platform and Vercel.
-  - company: Web3Auth
-    name: Web3Auth
-    location: Singapore (Remote)
-    description: Simple self-custodial auth infra for Web3 apps and wallets
-    position: Software Engineer
-    url: https://web3auth.io/
-    startDate: "2021-08"
-    endDate: "2022-06"
-    summary: Web3Auth is a distributed private key management solution. By abstracting the management of private keys away from the end user, we allow users to start making use of blockchain applications using familiar authentication methods like Google or Facebook login. Our goal is to allow any digital identity to be a valid cross-platform identifier, allowing users to bring their digital identities with them to any application on the Internet.
-    highlights:
-      - Developmemnt of full suite of mobile SDKs on Android, iOS, Flutter and React Native, for Web3Auth and CustomAuth, with hundreds of downloads per week.
-      - Developer relation and support from client developers for integrating our SDKs, troubleshooting across the full stack,
-        from blockchain nodes written in Go, backend services written in Node.js, frontend webapps written in Vue.js and React.js,
-        to mobile SDK written on the aforementioned languages.
-      - Created the [react-native-web-browser](https://github.com/torusresearch/react-native-web-browser) package,
-        which allows the same API to be used for opening browser sessions in both Expo and bare React Native apps.
-        Reducing React Native related support requests by at least 50%.
-
-  - company: TFS Info-Tech Company Limited
-    name: TFS Info-Tech Company Limited
-    location: Hong Kong
-    description: A company building a highly concurrent stream and game app
-    position: Junior Software Analyst
-    url: https://tfs-grp.com/
-    startDate: "2019-08"
-    endDate: "2021-06"
-    summary: In TFS, we were building a highly concurrent game system that
-      is expected to stream live video feed and then accept input to a
-      large amount of players. I am responsible for developing the
-      Golang-based microservices system.
-    highlights:
-      - Contributed to the initial proposal of the high concurrency
-        microservices architecture, using RabbitMQ as a message broker to
-        serve a large amount of concurrent external connections, and gRPC for
-        internal low latency communication, with MySQL as database and Redis
-        as cache and secondary low latency database, mainly implemented with
-        Golang with additional Javascript libraries provided for frontend
-        consumption. Previous load testing indicates a concurrent peak
-        loading of at least 10K users when backed with message brokers and
-        databases with sufficient capacity.
-      - Implemented a low latency and highly efficient custom authentication
-        system for the RabbitMQ broker, backed by Redis.
-      - Provided a rigidly tested, well-structured system with reusable
-        modules to draw different graphs based on the current state of the system.
-      - Implemented additional features and bugfixes on a MySQL-backed content
-        management system, across different services.
-
-  - company: HKU e-Learning Development Laboratory
-    name: HKU e-Learning Development Laboratory
-    location: Hong Kong
-    startDate: "2018-05"
-    endDate: "2019-06"
-    position: Part-time developer
-    description: A Laboratory inside the University of Hong Kong developing
-      a set of helpful e-Learning solutions.
-    highlights:
-      - Developed of the iClass Parental Control System mobile app, which provides
-        parents an interface to control their own kids' devices, in React Native,
-        and being used in hundreds of Hong Kong schools.
-      - Developed and maintained of the iClass Mobile Management and
-        Learning Management System service, utilizing Node.js, PHP and MySQL.
-      - Development and deployment of the iClass Student Information System,
-        utilizing PHP, MySQL and Docker.
-
-education:
-  - institution: University of Hong Kong
-    url: https://hku.hk/
-    area: Computer Engineering
-    studyType: Bachelor
-    startDate: "2018-09"
-    endDate: "2022-12"
-awards:
-  - title: Sliver Medal in Hong Kong Olympiad in Informatics
-    date: "2016"
-    url: https://hkoi.org/en
-    awarder: The Hong Kong Association of Computer Education
-    summary: A programming competition focused on algorithm building, achieved
-      during my secondary school days.
-  - title: Finalist in J.P. Morgan Code For Good 2022
-    date: "2022-09"
-    awarder: J.P. Morgan Chase
-    summary: One of 4 finalists out of 12 teams in the hackathon of providing solutions to NGO problems
-skills:
-  - name: Golang
-    level: Advanced
-    keywords:
-      - Golang
-      - Go
-  - name: Java
-    level: Advanced
-    keywords:
-      - Java
-  - name: Spring Boot
-    level: Advanced
-  - name: Kubernetes
-    level: Intermediate
-  - name: Linux system
-    level: Advanced
-    keywords:
-      - Linux
-      - Bash
-      - Vim
-      - Tmux
-  - name: Flutter
-    level: Advanced
-    keywords:
-      - Flutter
-    description:
-      Have experience developing multiple Flutter apps, as well as contributing
-      to the Flutter tooling upstream.
-  - name: Node.js
-    level: Advanced
-    keywords:
-      - Node.js
-      - Javascript
-  - name: React.js / React Native
-    level: Advanced
-    keywords:
-      - React.js
-      - React
-      - React Native
-  - name: SQL
-    level: Intermediate
-    keywords:
-      - MySQL
-      - PostgreSQL
-      - MSSQL
-  - name: Redis
-    level: Working knowledge
-    keywords:
-      - Redis
-  - name: RabbitMQ
-    level: Working knowledge
-    keywords:
-      - RabbitMQ
-languages:
-  - language: English
-    fluency: Bilingual
-  - language: Chinese
-    fluency: Native
-certificates:
-  - name: Amazon Web Services Cloud Practitioner
-    date: "2023-02-22"
-    issuer: Amazon Web Services (AWS)
-    url: https://www.credly.com/badges/9cbaae3a-037c-4a1f-9815-85993c2ec966/public_url
-  - name: Google Cloud Certified Associate Cloud Engineer
-    date: "2023-03-03"
-    issuer: Google
-    url: https://www.credential.net/c236b907-79c5-4506-8ab9-06c763971685#acc.eySv0QJg
-  - name: TensorFlow Developer Certificate
-    date: "2023-04-05"
-    issuer: Google
-    url: https://www.credential.net/3cd8e3e4-3540-44c8-820c-4e95405bb457#acc.u69gf4HS
+cv:
+  name: 'Michael Lee'
+  location: 'Hong Kong'
+  email: 'ckmichael8@gmail.com'
+  website: 'https://michaellee8.com'
+  social_networks:
+    - network: 'LinkedIn'
+      username: 'michaellee88'
+    - network: 'GitHub'
+      username: 'michaellee8'
+    - network: 'GitLab'
+      username: 'michaellee8'
+  sections:
+    about:
+      - 'Strong interest on engineering backend systems, particularly low level, distributed, networking and optimization stuffs.'
+      - 'Strong skills accross the full application and web development stack, including frontend, backend, mobile and devops.'
+      - 'Worked 6 years in a full-time software enginerring role across different fields remotely.'
+      - 'Exteremely fast learner, from never touched native mobile development to developing and maintaining mobile SDKs on multiple platforms in less than 10 months fyi.'
+      - 'Please see my [website](https://michaellee8.com) and [GitHub profiile](https://github.com/michaellee8) for personal and open-source projects I have worked on.'
+    experience:
+      - company: 'J.P. Morgan Chase'
+        position: 'Software Engineer I'
+        date:
+        start_date: '2023-03'
+        end_date: '2025-04'
+        location: 'Hong Kong'
+        summary: 'Private Bank JPOI team'
+        highlights:
+          - 'Devloped both backend microervices and frontend webapps of multiple trading-related applications, using Java Spring Boot, Angular and MSSQL.'
+          - 'Deployed applications following DevOps principle with internal Kubernetes/Cloud Foundary/Jenkins based platform.'
+          - 'Performed security penetration testing on team projects and discovered 6 exploitable OSWAP top 10 vulnerabilities.'
+          - 'Implemented unit tests using Groovy and JUnit, as well as automated browser tests using Selenium and Playwright.'
+      - company: 'Unicorn Farms'
+        position: 'Consultant'
+        date:
+        start_date: '2022-07'
+        end_date: '2023-02'
+        location: 'United States (Remote)'
+        summary: 'Remote freelancing in a US startup on to develop a Node.js (Nest.js and Prisma + MySQL) and Firebase based backend for a Chat-orienated social network app, as well as deploy it on Google Cloud Platform and Vercel.'
+      - company: 'Web3Auth'
+        location: 'Singapore (Remote)'
+        position: 'Software Engineer'
+        url: 'https://web3auth.io/'
+        start_date: '2021-08'
+        end_date: '2022-06'
+        summary: 'Web3Auth is a distributed private key management solution. By abstracting the management of private keys away from the end user, we allow users to start making use of blockchain applications using familiar authentication methods like Google or Facebook login. Our goal is to allow any digital identity to be a valid cross-platform identifier, allowing users to bring their digital identities with them to any application on the Internet.'
+        highlights:
+          - 'Developmemnt of full suite of mobile SDKs on Android, iOS, Flutter and React Native, for Web3Auth and CustomAuth, with hundreds of downloads per week.'
+          - 'Developer relation and support from client developers for integrating our SDKs, troubleshooting across the full stack, from blockchain nodes written in Go, backend services written in Node.js, frontend webapps written in Vue.js and React.js, to mobile SDK written on the aforementioned languages.'
+          - 'Created the [react-native-web-browser](https://github.com/torusresearch/react-native-web-browser) package, which allows the same API to be used for opening browser sessions in both Expo and bare React Native apps. Reducing React Native related support requests by at least 50%.'
+      - company: 'TFS Info-Tech Company Limited'
+        location: 'Hong Kong'
+        position: 'Junior Software Analyst'
+        start_date: '2019-08'
+        end_date: '2021-06'
+        summary: 'In TFS, we were building a highly concurrent game system that is expected to stream live video feed and then accept input to a large amount of players. I am responsible for developing the Golang-based microservices system.'
+        highlights:
+          - 'Contributed to the initial proposal of the high concurrency microservices architecture, using RabbitMQ as a message broker to serve a large amount of concurrent external connections, and gRPC for internal low latency communication, with MySQL as database and Redis as cache and secondary low latency database, mainly implemented with Golang with additional Javascript libraries provided for frontend consumption. Previous load testing indicates a concurrent peak loading of at least 10K users when backed with message brokers and databases with sufficient capacity.'
+          - 'Implemented a low latency and highly efficient custom authentication system for the RabbitMQ broker, backed by Redis.'
+          - 'Provided a rigidly tested, well-structured system with reusable modules to draw different graphs based on the current state of the system.'
+          - 'Implemented additional features and bugfixes on a MySQL-backed content management system, across different services.'
+      - company: 'HKU e-Learning Development Laboratory'
+        location: 'Hong Kong'
+        start_date: '2018-05'
+        end_date: '2019-06'
+        position: 'Part-time developer'
+        highlights:
+          - "Developed of the iClass Parental Control System mobile app, which provides parents an interface to control their own kids' devices, in React Native, and being used in hundreds of Hong Kong schools."
+          - 'Developed and maintained of the iClass Mobile Management and Learning Management System service, utilizing Node.js, PHP and MySQL.'
+          - 'Development and deployment of the iClass Student Information System, utilizing PHP, MySQL and Docker.'
+    education:
+      - institution: 'University of Hong Kong'
+        area: 'Computer Engineering'
+        degree: 'Bachelor'
+        start_date: '2018-09'
+        end_date: '2022-12'
+        location: 'Hong Kong'
+    skills:
+      - label: 'Programming Languages'
+        details: 'Proficient in Golang, Javascript, Java and Python. Basic skills in C/C++ and Rust.'
+      - label: 'Software Frameworks'
+        details: 'Proficient in React.js, React Native, Flutter and Spring Boot.'
+      - label: 'Database'
+        details: 'Working knowledge in MSSQL, PostgreSQL, MySQL and Redis.'
+      - label: 'Languages'
+        details: 'Native Cantonese, Bilingual Proficiency in English, Professional Proficiency in Putonghua.'
+    certificates:
+      - bullet: '[Amazon Web Services Cloud Practitioner](https://www.credly.com/badges/9cbaae3a-037c-4a1f-9815-85993c2ec966/public_url)'
+      - bullet: '[Google Cloud Certified Associate Cloud Engineer](https://www.credential.net/c236b907-79c5-4506-8ab9-06c763971685#acc.eySv0QJg)'
+      - bullet: '[TensorFlow Developer Certificate](https://www.credential.net/3cd8e3e4-3540-44c8-820c-4e95405bb457#acc.u69gf4HS)'
+design:
+  theme: 'engineeringresumes'
+locale:
+  language: 'en'
+  phone_number_format: 'national'
+  page_numbering_template: 'NAME - Page PAGE_NUMBER of TOTAL_PAGES'
+  last_updated_date_template: 'Last updated in TODAY'
+  date_template: 'MONTH_ABBREVIATION YEAR'
+  month: 'month'
+  months: 'months'
+  year: 'year'
+  years: 'years'
+  present: 'present'
+  to: '–'
+  abbreviations_for_months:
+    - 'Jan'
+    - 'Feb'
+    - 'Mar'
+    - 'Apr'
+    - 'May'
+    - 'June'
+    - 'July'
+    - 'Aug'
+    - 'Sept'
+    - 'Oct'
+    - 'Nov'
+    - 'Dec'
+  full_names_of_months:
+    - 'January'
+    - 'February'
+    - 'March'
+    - 'April'
+    - 'May'
+    - 'June'
+    - 'July'
+    - 'August'
+    - 'September'
+    - 'October'
+    - 'November'
+    - 'December'
+rendercv_settings:
+  date: '2025-02-21'
+  bold_keywords: []
