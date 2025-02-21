@@ -37,6 +37,7 @@ work:
     location: Hong Kong
     startDate: "2023-03"
     endDate: "2025-04"
+    position: Software Engineer I
     description: Private Bank JPOI team
     highlights:
       - Devloped both backend microervices and frontend webapps of multiple trading-related applications, using Java Spring Boot, Angular and MSSQL.
