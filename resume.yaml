@@ -10,7 +10,7 @@ basics:
   summary: |
     - Strong interest on engineering backend systems, particularly low level, distributed, networking and optimization stuffs.
     - Stromg skills accross the full application and web development stack, including frontend, backend, mobile and devops.
-    - Worked 3 years in a full-time software enginerring role across different fields remotely.
+    - Worked 6 years in a full-time software enginerring role across different fields remotely.
     - Exteremely fast learner, from never touched native mobile development to developing and maintaining mobile SDKs on multiple platforms in less than 10 months fyi.
 
     Please see my [website](https://michaellee8.com) and [GitHub profiile](https://github.com/michaellee8) for personal and open-source projects I have worked on.
@@ -37,13 +37,18 @@ work:
     location: Hong Kong
     startDate: "2023-03"
     endDate: "2025-04"
+    description: Private Bank JPOI team
+    highlights:
+      - Devloped both backend microervices and frontend webapps of multiple trading-related applications, using Java Spring Boot, Angular and MSSQL.
+      - Deployed applications following DevOps principle with internal Kubernetes/Cloud Foundary/Jenkins based platform.
+      - Performed security penetration testing on team projects and discovered 6 exploitable OSWAP top 10 vulnerabilities.
   - company: Unicorn Farms
     name: Chatapp
     location: United States (Remote)
     startDate: "2022-07"
     endDate: "2023-02"
     position: Software Engineer
-    description: Remote freelancing in a US startup on to develop a Node.js (Nest.js and Prisma) and Firebase based backend for a Chat-orienated social network app, as well as deploy it on Google Cloud Platform and Vercel.
+    description: Remote freelancing in a US startup on to develop a Node.js (Nest.js and Prisma + MySQL) and Firebase based backend for a Chat-orienated social network app, as well as deploy it on Google Cloud Platform and Vercel.
   - company: Web3Auth
     name: Web3Auth
     location: Singapore (Remote)
@@ -56,7 +61,7 @@ work:
     highlights:
       - Developmemnt of full suite of mobile SDKs on Android, iOS, Flutter and React Native, for Web3Auth and CustomAuth, with hundreds of downloads per week.
       - Developer relation and support from client developers for integrating our SDKs, troubleshooting across the full stack,
-        from blockchain nodes written in Go, backenc services written in Node.js, frontend webapps written in Vue.js and React.js,
+        from blockchain nodes written in Go, backend services written in Node.js, frontend webapps written in Vue.js and React.js,
         to mobile SDK written on the aforementioned languages.
       - Created the [react-native-web-browser](https://github.com/torusresearch/react-native-web-browser) package,
         which allows the same API to be used for opening browser sessions in both Expo and bare React Native apps.
@@ -166,10 +171,11 @@ skills:
       - React
       - React Native
   - name: SQL
-    level: Working knowledge
+    level: Intermediate
     keywords:
       - MySQL
       - PostgreSQL
+      - MSSQL
   - name: Redis
     level: Working knowledge
     keywords:
