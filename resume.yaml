@@ -26,7 +26,7 @@ cv:
         location: 'Hong Kong'
         summary: 'Private Bank JPOI team'
         highlights:
-          - 'Devloped both backend microervices and frontend webapps of multiple trading-related applications, using Java Spring Boot, Angular and MSSQL.'
+          - 'Devloped both backend microervices and frontend webapps of multiple consumer-facing trading-related applications, using Java Spring Boot, Angular and MSSQL.'
           - 'Deployed applications following DevOps principle with internal Kubernetes/Cloud Foundary/Jenkins based platform.'
           - 'Performed security penetration testing on team projects and discovered 6 exploitable OSWAP top 10 vulnerabilities.'
           - 'Implemented unit tests using Groovy and JUnit, as well as automated browser tests using Selenium and Playwright.'
