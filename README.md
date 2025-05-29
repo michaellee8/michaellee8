@@ -10,7 +10,7 @@ I would describe myself as a technical focused **problem-solver** who prioritize
 
 Please have a look at my resume at https://resume.michaellee8.com/ on my work experiences and skillsets. Also please feel free to pay a visit to my website at https://michaellee8.com and my GitHub profile at https://github.com/michaellee8
 
-## Some of my recent personal projects:
+## Some of my personal projects:
 
 - [dynproxy][25]: A dynamically reconfigureable raw TCP proxy written in Golang.
 - [SafeIsolator][22]: An prototype mobile app that allows one to completely isolate an untrusted
@@ -19,7 +19,7 @@ Please have a look at my resume at https://resume.michaellee8.com/ on my work ex
 - [fluuter_fuchsia_toolchain][8]: A set of scripts to allow easier development of Flutter apps in Google's Fuchsia OS.
 - [pubenvconfig][9]: My daily working environment setup, populated with a set of configs and scripts for tools that I use frequently, like Neovim and Tmux. You can see my setup for developing Flutter apps **on** (not for) Android devices [here][11].
 
-## Some of my recent open-source contributions/participations:
+## Some of my open-source contributions/participations:
 
 - [react-native-web-browser][23]: A React Native library that allows one to open web browser
   sessions with the same API they use for Expo.
