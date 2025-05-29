@@ -36,7 +36,7 @@ cv:
         start_date: "2022-07"
         end_date: "2023-02"
         location: "United States (Remote)"
-        summary: "Remote freelancing in a US startup on to develop a Node.js (Nest.js and Prisma + MySQL) and Firebase based backend for a Chat-orienated social network app, as well as deploy it on Google Cloud Platform and Vercel."
+        summary: "Remote freelancing in a US startup on to develop a Node.js (Nest.js and Prisma + MySQL), Golang and Firebase based backend for a Chat-orienated social network app, as well as deploy it on Google Cloud Platform and Vercel."
       - company: "Web3Auth"
         location: "Singapore (Remote)"
         position: "Software Engineer"
