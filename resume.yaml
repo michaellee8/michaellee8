@@ -12,11 +12,11 @@ cv:
       username: "michaellee8"
   sections:
     about:
-      - "Polygot engineer with strong interest on engineering backend systems."
-      - "Strong skills accross the full application and web development stack, including frontend, backend, mobile and devops."
-      - "Worked 6 years in a full-time software enginerring role across different fields remotely."
-      - "Exteremely fast learner, from never touched native mobile development to developing and maintaining mobile SDKs on multiple platforms in less than 10 months fyi."
-      - "Please see my [website](https://michaellee8.com) and [GitHub profiile](https://github.com/michaellee8) for personal and open-source projects I have worked on."
+      - "Polyglot engineer with strong interest on engineering backend systems."
+      - "Strong skills across the full application and web development stack, including frontend, backend, mobile and devops."
+      - "Worked 6 years in a full-time software engineering role across different fields remotely."
+      - "Extremely fast learner, from never touched native mobile development to developing and maintaining mobile SDKs on multiple platforms in less than 10 months fyi."
+      - "Please see my [website](https://michaellee8.com) and [GitHub profile](https://github.com/michaellee8) for personal and open-source projects I have worked on."
     experience:
       - company: "J.P. Morgan Chase"
         position: "Software Engineer I"
@@ -26,8 +26,8 @@ cv:
         location: "Hong Kong"
         summary: "Private Bank JPOI team"
         highlights:
-          - "Devloped both backend microervices and frontend webapps of multiple consumer-facing trading-related applications, using Java Spring Boot, Angular and MSSQL."
-          - "Deployed applications following DevOps principle with internal Kubernetes/Cloud Foundary/Jenkins based platform."
+          - "Developed both backend microservices and frontend webapp of multiple consumer-facing trading-related applications, using Java Spring Boot, Angular and MSSQL."
+          - "Deployed applications following DevOps principle with internal Kubernetes/Cloud Foundry/Jenkins based platform."
           - "Performed security penetration testing on team projects and discovered 6 exploitable OSWAP top 10 vulnerabilities."
           - "Implemented unit tests using Groovy and JUnit, as well as automated browser tests using Selenium and Playwright."
       - company: "Unicorn Farms"
@@ -36,7 +36,7 @@ cv:
         start_date: "2022-07"
         end_date: "2023-02"
         location: "United States (Remote)"
-        summary: "Remote freelancing in a US startup on to develop a Node.js (Nest.js and Prisma + MySQL), Golang and Firebase based backend for a Chat-orienated social network app, as well as deploy it on Google Cloud Platform and Vercel."
+        summary: "Remote freelancing in a US startup on to develop a Node.js (Nest.js and Prisma + MySQL), Golang and Firebase based backend for a Chat-oriented social network app, as well as deploy it on Google Cloud Platform and Vercel."
       - company: "Web3Auth"
         location: "Singapore (Remote)"
         position: "Software Engineer"
@@ -45,7 +45,7 @@ cv:
         end_date: "2022-06"
         summary: "Web3Auth is a distributed private key management solution. By abstracting the management of private keys away from the end user, we allow users to start making use of blockchain applications using familiar authentication methods like Google or Facebook login. The goal is to allow any digital identity to be a valid cross-platform identifier, allowing users to bring their digital identities with them to any application on the Internet."
         highlights:
-          - "Developmemnt of full suite of mobile SDKs on Android, iOS, Flutter and React Native, for Web3Auth and CustomAuth, with hundreds of downloads per week."
+          - "Developed full suite of mobile SDKs on Android, iOS, Flutter and React Native, for Web3Auth and CustomAuth, with hundreds of downloads per week."
           - "Developer relation and support from client developers for integrating our SDKs, troubleshooting across the full stack, from blockchain nodes written in Go, backend services written in Node.js, frontend webapps written in Vue.js and React.js, to mobile SDK written on the aforementioned languages."
           - "Created the [react-native-web-browser](https://github.com/torusresearch/react-native-web-browser) package, which allows the same API to be used for opening browser sessions in both Expo and bare React Native apps. Reducing React Native related support requests by at least 50%."
       - company: "TFS Info-Tech Company Limited"
