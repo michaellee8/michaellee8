@@ -18,6 +18,15 @@ cv:
       - "Extremely fast learner, from never having touched native mobile development to developing and maintaining mobile SDKs on multiple platforms in less than 10 months."
       - "Please see my [website](https://michaellee8.com) and [GitHub profile](https://github.com/michaellee8) for personal and open-source projects I have worked on."
     experience:
+      - company: "Offset"
+        position: "Software Engineer"
+        start_date: "2025-08"
+        location: "United States (Remote)"
+        summary: "Remote full-time role in an early stage Agentic AI startup funded by hf0.com"
+        highlights:
+          - "Developed Excel and Google Sheet AI Agent add-in for financial applications using Bun/Node.js, React, ai-sdk and office.js."
+          - "Developed RAG (Retrieval-Augmented Generation) based AI systems using LangChain, LlamaIndex and pgvector with high verifiability."
+          - "Deployed AI applications on AWS ECS and EC2."
       - company: "J.P. Morgan Chase"
         position: "Software Engineer I"
         date:
