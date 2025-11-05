@@ -13,8 +13,8 @@ cv:
   sections:
     about:
       - "Polyglot engineer with strong interest in engineering backend systems."
-      - "Strong skills across the full application and web development stack, including frontend, backend, mobile and devops."
-      - "Worked 6 years in a full-time software engineering role across different fields remotely."
+      - "Strong skills across the full application and web development stack, including frontend, backend, mobile and DevOps."
+      - "Worked remotely for 6 years in full-time software engineering roles across different fields."
       - "Extremely fast learner, from never having touched native mobile development to developing and maintaining mobile SDKs on multiple platforms in less than 10 months."
       - "Please see my [website](https://michaellee8.com) and [GitHub profile](https://github.com/michaellee8) for personal and open-source projects I have worked on."
     experience:
@@ -22,10 +22,10 @@ cv:
         position: "Software Engineer"
         start_date: "2025-08"
         location: "United States (Remote)"
-        summary: "Remote full-time role in an early stage Agentic AI startup funded by hf0.com"
+        summary: "Remote full-time role in an early-stage Agentic AI startup funded by hf0.com"
         highlights:
-          - "Developed Excel and Google Sheet AI Agent add-in for financial applications using Bun/Node.js, React, ai-sdk and office.js."
-          - "Developed RAG (Retrieval-Augmented Generation) based AI systems using LangChain, LlamaIndex and pgvector with high verifiability."
+          - "Developed Excel and Google Sheets AI Agent add-in for financial applications using Bun/Node.js, React, ai-sdk and office.js."
+          - "Developed RAG (Retrieval-Augmented Generation)-based AI systems using LangChain, LlamaIndex and pgvector with high verifiability."
           - "Deployed AI applications on AWS ECS and EC2."
       - company: "J.P. Morgan Chase"
         position: "Software Engineer I"
@@ -45,7 +45,7 @@ cv:
         start_date: "2022-07"
         end_date: "2023-02"
         location: "United States (Remote)"
-        summary: "Remote freelancing in a US startup to develop a Node.js (Nest.js and Prisma + MySQL), Golang and Firebase based backend for a Chat-oriented social network app, as well as deploy it on Google Cloud Platform and Vercel."
+        summary: "Remote freelancing for a US startup to develop a Node.js (Nest.js and Prisma + MySQL), Golang and Firebase based backend for a Chat-oriented social network app, as well as deploy it on Google Cloud Platform and Vercel."
       - company: "Web3Auth"
         location: "Singapore (Remote)"
         position: "Software Engineer"
