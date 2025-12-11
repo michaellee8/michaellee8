@@ -10,13 +10,13 @@ jobs:
     name: Build resume
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 16.3.0
       - run: sudo wget https://github.com/mikefarah/yq/releases/download/v4.2.0/yq_linux_amd64 -O /usr/bin/yq && sudo chmod +x /usr/bin/yq
       - run: cd ./scripts/resume && npm ci && npm run build && cd ../../
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: out-resume
           path: out/resume
@@ -24,9 +24,9 @@ jobs:
     name: Build home
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - run: cd ./scripts/home && npm ci && npm run build && cd ../../
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: out-home
           path: out/home
@@ -36,12 +36,12 @@ jobs:
       - build-resume
       - build-home
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/download-artifact@v2
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
         with:
           name: out-resume
           path: out/resume
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v4
         with:
           name: out-home
           path: out/home
