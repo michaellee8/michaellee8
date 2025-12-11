@@ -8,7 +8,7 @@ on:
 jobs:
   build-resume:
     name: Build resume
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -22,7 +22,7 @@ jobs:
           path: out/resume
   build-home:
     name: Build home
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v2
       - run: cd ./scripts/home && npm ci && npm run build && cd ../../
@@ -31,7 +31,7 @@ jobs:
           name: out-home
           path: out/home
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     needs:
       - build-resume
       - build-home
