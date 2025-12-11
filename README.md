@@ -39,8 +39,6 @@ Please have a look at my resume at https://resume.michaellee8.com/ on my work ex
 
 - I love eating tasty food, but meanwhile, I am unable to eat most of them since I am suffering from allergies.
 
-- I embrace open source and open ecosystem hence I always use an Android phone, and I more or less dislike Apple for their closed ecosystem. However, I still had to buy a cheap iPad for developing iOS apps and I am running an OSX-KVM instance on my Ubuntu Laptop for the same reason. I also exchanged my girlfriend's old AirPods with a new AirPods pro since AirPod was the only decent earbuds on the market that won't make my ear itchy.
-
 - I started programming about 10 years ago when I borrowed a very outdated Visual Basic 6.0 book from a local library. My first project was a "Michael Explorer" that embeds IE 7 with a few buttons for navigation. I actually got my first job at a learning product company that provides my Secondary school's e-Learning platform by discovering multiple security flaws in the platform (and fixed all of them after joining the company).
 
 - I don't really like studying in Academica so I spend most of my effort in actually software engineering work and open source contributions, and didn't ~~waste~~ invest much time in studying during my University and Secondary school time. I am literally paying about 20K USD to get a piece of paper with the word certificate on it. Still, I got quite a good result in my secondary school public exam and it grants me a Bachelor of Engineering entry in HKU which has a QS ranking like 20-30.
