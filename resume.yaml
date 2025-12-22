@@ -13,20 +13,26 @@ cv:
   sections:
     about:
       - "Polyglot engineer with strong interest in engineering backend systems."
-      - "Strong skills across the full application and web development stack, including frontend, backend, mobile and DevOps."
+      - "Strong skills across the full application and web development stack, including frontend, backend, mobile, AI and DevOps."
       - "Worked remotely for 6 years in full-time software engineering roles across different fields."
       - "Extremely fast learner, from never having touched native mobile development to developing and maintaining mobile SDKs on multiple platforms in less than 10 months."
-      - "Please see my [website](https://michaellee8.com) and [GitHub profile](https://github.com/michaellee8) for personal and open-source projects I have worked on."
+      - "Please see my [GitHub profile](https://github.com/michaellee8) for personal and open-source projects I have worked on."
     experience:
-      - company: "Offset"
+      - company: "Skillflo"
         position: "Software Engineer"
+        start_date: "2025-12"
+        location: "Hong Kong"
+      - company: "Offset"
+        position: "Founding Software Engineer"
         start_date: "2025-08"
+        end_date: "2025-12"
         location: "United States (Remote)"
-        summary: "Remote full-time role in an early-stage Agentic AI startup funded by hf0.com"
+        summary: "Remote role in an early-stage Agentic AI startup funded by hf0"
         highlights:
           - "Developed Excel and Google Sheets AI Agent add-in for financial applications using Bun/Node.js, React, ai-sdk and office.js."
           - "Developed RAG (Retrieval-Augmented Generation)-based AI systems using LangChain, LlamaIndex and pgvector with high verifiability."
           - "Deployed AI applications on AWS ECS and EC2."
+          - "Developed local AI transcription and summarization app for macOS using llana.cpp, Whisper, Tauri and MLX, with finetuned quantized models using Unsloth."
       - company: "J.P. Morgan Chase"
         position: "Software Engineer I"
         date:
@@ -137,5 +143,5 @@ locale:
     - "November"
     - "December"
 rendercv_settings:
-  date: "2025-05-27"
+  date: "2025-12-22"
   bold_keywords: []
