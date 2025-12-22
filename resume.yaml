@@ -32,7 +32,7 @@ cv:
           - "Developed Excel and Google Sheets AI Agent add-in for financial applications using Bun/Node.js, React, ai-sdk and office.js."
           - "Developed RAG (Retrieval-Augmented Generation)-based AI systems using LangChain, LlamaIndex and pgvector with high verifiability."
           - "Deployed AI applications on AWS ECS and EC2."
-          - "Developed local AI transcription and summarization app for macOS using llana.cpp, Whisper, Tauri and MLX, with finetuned quantized models using Unsloth."
+          - "Developed local AI transcription and summarization app for macOS using llama.cpp, Whisper, Tauri and MLX, with finetuned quantized models using Unsloth."
       - company: "J.P. Morgan Chase"
         position: "Software Engineer I"
         date:
