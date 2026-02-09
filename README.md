@@ -43,6 +43,8 @@ Please have a look at my resume at https://resume.michaellee8.com/ on my work ex
 
 - I don't really like studying in Academica so I spend most of my effort in actually software engineering work and open source contributions, and didn't ~~waste~~ invest much time in studying during my University and Secondary school time. I am literally paying about 20K USD to get a piece of paper with the word certificate on it. Still, I got quite a good result in my secondary school public exam and it grants me a Bachelor of Engineering entry in HKU which has a QS ranking like 20-30.
 
+- I actually tried to teach my girlfriend who was on the art stream coding.
+
   [1]: https://michaellee8.com/
   [3]: https://golang.org/
   [4]: https://flutter.dev/
