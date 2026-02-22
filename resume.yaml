@@ -21,7 +21,12 @@ cv:
       - company: "Skillflo"
         position: "Software Engineer"
         start_date: "2025-12"
+        end_date: "2026-02"
         location: "Hong Kong"
+        summary: "Short-term software engineer role building voice agent for behavior and case interview simulator targeting MBB and consulting job candidates."
+        highlights:
+          - "Performed full security audit of the rapidly developed system."
+          - "Major migration of the system from cloud-managed closed-source Hume to open source LiveKit Agents, implementing multi-agent voice-based systems."
       - company: "Offset"
         position: "Founding Software Engineer"
         start_date: "2025-08"
