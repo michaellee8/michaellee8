@@ -12,12 +12,21 @@ cv:
       username: "michaellee8"
   sections:
     about:
-      - "Polyglot engineer with strong interest in engineering backend systems."
-      - "Strong skills across the full application and web development stack, including frontend, backend, mobile, AI and DevOps."
-      - "Worked remotely for 6 years in full-time software engineering roles across different fields."
+      - "Full-stack polygot engineer currently focused in Agentic AI systems"
+      - "Strong skills across the full AI application development stack, including AI, frontend, backend, mobile and DevOps."
       - "Extremely fast learner, from never having touched native mobile development to developing and maintaining mobile SDKs on multiple platforms in less than 10 months."
       - "Please see my [GitHub profile](https://github.com/michaellee8) for personal and open-source projects I have worked on."
     experience:
+      - company: "HKU e-Learning Development Laboratory"
+        position: "Software Engineer"
+        start_date: "2026-03"
+        location: "Hong Kong"
+        summary: "Building AI platform for Hong Kong K12 schools"
+        highlights:
+          - "Developed AI Marker system for marking school assigments with human-approval workflows."
+          - "Implemented multi-stage agentic workflows to generate high quality exam questions and solutions."
+          - "Built highly intergrated AI Agents with code execution sandboxes."
+          - "Technologies involved include Python, LangChain, LangGraph, FastAPI, React, Tailwind, Golang, Rust, Redis, PostgreSQL and GCP."
       - company: "Skillflo"
         position: "Software Engineer"
         start_date: "2025-12"
