@@ -3,20 +3,6 @@ name: Build and Preview to Firebase Hosting
 on: pull_request
 
 jobs:
-  build-resume:
-    name: Build resume
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 16.3.0
-      - run: sudo wget https://github.com/mikefarah/yq/releases/download/v4.2.0/yq_linux_amd64 -O /usr/bin/yq && sudo chmod +x /usr/bin/yq
-      - run: cd ./scripts/resume && npm ci && npm run build && cd ../../
-      - uses: actions/upload-artifact@v4
-        with:
-          name: out-resume
-          path: out/resume
   build-home:
     name: Build home
     runs-on: ubuntu-24.04
@@ -31,14 +17,9 @@ jobs:
     if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-24.04
     needs:
-      - build-resume
       - build-home
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
-        with:
-          name: out-resume
-          path: out/resume
       - uses: actions/download-artifact@v4
         with:
           name: out-home
