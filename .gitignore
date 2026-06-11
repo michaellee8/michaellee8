@@ -74,3 +74,4 @@ node_modules/
 Session.vim
 
 rendercv_output/
+.DS_Store
