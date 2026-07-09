@@ -20,6 +20,7 @@ cv:
       - company: "HKU e-Learning Development Laboratory"
         position: "Software Engineer"
         start_date: "2026-03"
+        end_date: "2026-06"
         location: "Hong Kong"
         summary: "Building AI platform for Hong Kong K12 schools"
         highlights:
@@ -44,7 +45,7 @@ cv:
         summary: "Remote role in an early-stage Agentic AI startup funded by hf0"
         highlights:
           - "Developed Excel and Google Sheets AI Agent add-in for financial applications using Bun/Node.js, React, ai-sdk and office.js."
-          - "Developed RAG (Retrieval-Augmented Generation)-based AI systems using LangChain, LlamaIndex and pgvector with high verifiability."
+          - "Developed RAG (Retrieval-Augmented Generation)-based AI systems using Python, LangChain, LlamaIndex and pgvector with high verifiability."
           - "Deployed AI applications on AWS ECS and EC2."
           - "Developed local AI transcription and summarization app for macOS using llama.cpp, Whisper, Tauri and MLX, with finetuned quantized models using Unsloth."
       - company: "J.P. Morgan Chase"
@@ -87,6 +88,7 @@ cv:
           - "Contributed to the initial proposal of the high concurrency microservices architecture, using RabbitMQ as a message broker to serve a large amount of concurrent external connections, and gRPC for internal low latency communication, with MySQL as database and Redis as cache and secondary low latency database, mainly implemented with Golang with additional JavaScript libraries provided for frontend consumption. Previous load testing indicated a concurrent peak load of at least 10K users when backed with message brokers and databases with sufficient capacity."
           - "Provided a rigidly tested, well-structured system with reusable modules to draw different graphs based on the current state of the system."
           - "Implemented additional features and bugfixes on a MySQL-backed content management system, across different services."
+          - "Tech stack: Golang, Python, JavaScript, Vue.js, MySQL, RabbitMQ,  Kubernetes"
       - company: "HKU e-Learning Development Laboratory"
         location: "Hong Kong"
         start_date: "2018-05"
@@ -105,9 +107,11 @@ cv:
         location: "Hong Kong"
     skills:
       - label: "Programming Languages"
-        details: "Proficient in Golang, JavaScript, Java and Python. Basic skills in C/C++ and Rust."
+        details: "Experienced in Golang, JavaScript/TypeScript, Java and Python. Basic skills in C/C++ and Rust."
       - label: "Software Frameworks"
-        details: "Proficient in React.js, React Native, Flutter and Spring Boot."
+        details: "Experienced in React.js, React Native, Flutter and Spring Boot."
+      - label: "GenAI Frameworks"
+        details: "Experienced in LangChain, LangGraph, Unsloth and Vercel AI SDK. SKilled in Agentic AI engineering."
       - label: "Database"
         details: "Working knowledge in MSSQL, PostgreSQL, MySQL and Redis."
       - label: "Languages"
