@@ -12,7 +12,7 @@ cv:
       username: "michaellee8"
   sections:
     about:
-      - "Full-stack polygot engineer currently focused in Agentic AI systems"
+      - "Full-stack polyglot engineer currently focused in Agentic AI systems"
       - "Strong skills across the full AI application development stack, including AI, frontend, backend, mobile and DevOps."
       - "Extremely fast learner, from never having touched native mobile development to developing and maintaining mobile SDKs on multiple platforms in less than 10 months."
       - "Please see my [GitHub profile](https://github.com/michaellee8) for personal and open-source projects I have worked on."
@@ -24,9 +24,9 @@ cv:
         location: "Hong Kong"
         summary: "Building AI platform for Hong Kong K12 schools"
         highlights:
-          - "Developed AI Marker system for marking school assigments with human-approval workflows."
-          - "Implemented multi-stage agentic workflows to generate high quality exam questions and solutions."
-          - "Built highly intergrated AI Agents with code execution sandboxes."
+          - "Developed AI Marker system for marking school assignments with human-approval workflows."
+          - "Implemented multi-stage agentic workflows to generate high-quality exam questions and solutions."
+          - "Built highly integrated AI Agents with code execution sandboxes."
           - "Technologies involved include Python, LangChain, LangGraph, FastAPI, React, Tailwind, Golang, Rust, Redis, PostgreSQL and GCP."
       - company: "Skillflo"
         position: "Software Engineer"
@@ -36,7 +36,7 @@ cv:
         summary: "Short-term software engineer role building voice agent for behavior and case interview simulator targeting MBB and consulting job candidates."
         highlights:
           - "Performed full security audit of the rapidly developed system."
-          - "Major migration of the system from cloud-managed closed-source Hume to open source LiveKit Agents, implementing multi-agent voice-based systems."
+          - "Major migration of the system from cloud-managed closed-source Hume to open-source LiveKit Agents, implementing multi-agent voice-based systems."
       - company: "Offset"
         position: "Founding Software Engineer"
         start_date: "2025-08"
@@ -47,7 +47,7 @@ cv:
           - "Developed Excel and Google Sheets AI Agent add-in for financial applications using Bun/Node.js, React, ai-sdk and office.js."
           - "Developed RAG (Retrieval-Augmented Generation)-based AI systems using Python, LangChain, LlamaIndex and pgvector with high verifiability."
           - "Deployed AI applications on AWS ECS and EC2."
-          - "Developed local AI transcription and summarization app for macOS using llama.cpp, Whisper, Tauri and MLX, with finetuned quantized models using Unsloth."
+          - "Developed local AI transcription and summarization app for macOS using llama.cpp, Whisper, Tauri and MLX, with fine-tuned quantized models using Unsloth."
       - company: "J.P. Morgan Chase"
         position: "Software Engineer I"
         date:
@@ -56,7 +56,7 @@ cv:
         location: "Hong Kong"
         summary: "Private Bank JPOI team"
         highlights:
-          - "Developed both backend microservices and frontend webapp of multiple consumer-facing trading-related applications, using Java Spring Boot, Angular and MSSQL."
+          - "Developed both backend microservices and frontend web app of multiple consumer-facing trading-related applications, using Java Spring Boot, Angular and MSSQL."
           - "Deployed applications following DevOps principles with internal Kubernetes/Cloud Foundry/Jenkins based platform."
           - "Performed security penetration testing on team projects and discovered 6 exploitable OWASP top 10 vulnerabilities."
           - "Implemented unit tests using Groovy and JUnit, as well as automated browser tests using Selenium and Playwright."
@@ -111,7 +111,7 @@ cv:
       - label: "Software Frameworks"
         details: "Experienced in React.js, React Native, Flutter and Spring Boot."
       - label: "GenAI Frameworks"
-        details: "Experienced in LangChain, LangGraph, Unsloth and Vercel AI SDK. SKilled in Agentic AI engineering."
+        details: "Experienced in LangChain, LangGraph, Unsloth and Vercel AI SDK. Skilled in Agentic AI engineering."
       - label: "Database"
         details: "Working knowledge in MSSQL, PostgreSQL, MySQL and Redis."
       - label: "Languages"
